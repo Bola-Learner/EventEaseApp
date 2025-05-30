@@ -1,0 +1,13 @@
+﻿@using Microsoft.AspNetCore.Components.Routing
+@using Microsoft.AspNetCore.Components
+@using EventEaseApp.Layout
+@namespace EventEaseApp
+<Router AppAssembly="@typeof(Program).Assembly">
+    <Found Context="routeData">
+        <RouteView RouteData="routeData" DefaultLayout="@typeof(MainLayout)" />
+        <FocusOnNavigate RouteData="routeData" Selector="h1" />
+    </Found>
+    <NotFound>
+        <p class="m-3">Sorry, there's nothing at this address.</p>
+    </NotFound>
+</Router>

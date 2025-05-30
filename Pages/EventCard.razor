@@ -1,0 +1,21 @@
+﻿@using Microsoft.AspNetCore.Components
+@using Microsoft.AspNetCore.Components.Forms
+
+<div class="card m-2" style="width: 18rem;">
+    <div class="card-body">
+        <label class="form-label">Event Name</label>
+        <InputText @bind-Value="EventItem.Title" class="form-control" />
+
+        <label class="form-label mt-2">Date</label>
+        <InputDate @bind-Value="EventItem.Date" class="form-control" />
+
+        <label class="form-label mt-2">Location</label>
+        <InputText @bind-Value="EventItem.Location" class="form-control" />
+    </div>
+</div>
+
+@code {
+    [Parameter]
+    public Event EventItem { get; set; } = new Event();
+}
+

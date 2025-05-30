@@ -1,0 +1,143 @@
+@page "/profile"
+@using Microsoft.AspNetCore.Components
+@inject UserSessionService SessionService
+@inject EventService EventService
+@inject NavigationManager Navigation
+
+<PageTitle>User Profile</PageTitle>
+
+<div class="container">
+    <div class="card mb-4">
+        <div class="card-header">
+            <h3>User Profile</h3>
+        </div>
+        <div class="card-body">
+            @if (SessionService.IsLoggedIn)
+            {
+                <h4>Welcome, @SessionService.UserName!</h4>
+                <p><strong>Email:</strong> @SessionService.UserEmail</p>
+                <p><strong>Session Started:</strong> @sessionStartTimeLocal.ToString("g")</p>
+                <p><strong>Session Duration:</strong> @sessionDurationLocal.ToString(@"hh\:mm\:ss")</p>
+                
+                <div class="mt-4">
+                    <h5>Activity Summary</h5>
+                    <p>Events viewed: @viewedEventsLocal.Count</p>
+                    <p>Events registered: @registeredEventsLocal.Count</p>
+                </div>
+            }
+            else
+            {
+                <div class="alert alert-info">
+                    <p>You are browsing as a guest. Register for an event to create a profile.</p>
+                </div>
+            }
+        </div>
+    </div>
+    
+    @if (SessionService.IsLoggedIn)
+    {
+        <div class="row">
+            <div class="col-md-6">
+                <div class="card mb-4">
+                    <div class="card-header">
+                        <h5>Recently Viewed Events</h5>
+                    </div>
+                    <div class="card-body">
+                        @if (viewedEventsLocal.Count > 0)
+                        {
+                            <ul class="list-group">
+                                @foreach (var eventItem in viewedEventsLocal)
+                                {
+                                    <li class="list-group-item d-flex justify-content-between align-items-center">
+                                        <div>
+                                            <h6>@eventItem.Title</h6>
+                                            <small>@eventItem.Date.ToShortDateString() | @eventItem.Location</small>
+                                        </div>
+                                        <div>
+                                            <a href="/eventdetails/@eventItem.Id" class="btn btn-sm btn-outline-primary">View</a>
+                                        </div>
+                                    </li>
+                                }
+                            </ul>
+                        }
+                        else
+                        {
+                            <p>No events viewed yet.</p>
+                        }
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-md-6">
+                <div class="card">
+                    <div class="card-header">
+                        <h5>Registered Events</h5>
+                    </div>
+                    <div class="card-body">
+                        @if (registeredEventsLocal.Count > 0)
+                        {
+                            <ul class="list-group">
+                                @foreach (var eventItem in registeredEventsLocal)
+                                {
+                                    <li class="list-group-item d-flex justify-content-between align-items-center">
+                                        <div>
+                                            <h6>@eventItem.Title</h6>
+                                            <small>@eventItem.Date.ToShortDateString() | @eventItem.Location</small>
+                                        </div>
+                                        <div>
+                                            <a href="/eventdetails/@eventItem.Id" class="btn btn-sm btn-outline-primary">View</a>
+                                        </div>
+                                    </li>
+                                }
+                            </ul>
+                        }
+                        else
+                        {
+                            <p>You haven't registered for any events yet.</p>
+                        }
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="mt-3">
+            <button class="btn btn-danger" @onclick="ClearSession">Clear Session Data</button>
+        </div>
+    }
+</div>
+
+@code {
+    private DateTime sessionStartTimeLocal = DateTime.Now;
+    private TimeSpan sessionDurationLocal = TimeSpan.Zero;
+    private List<Event> viewedEventsLocal = new List<Event>();
+    private List<Event> registeredEventsLocal = new List<Event>();
+    
+    protected override void OnInitialized()
+    {
+        // Get the session data
+        sessionDurationLocal = SessionService.GetSessionDuration();
+        sessionStartTimeLocal = DateTime.Now - sessionDurationLocal;
+        
+        // Load viewed events
+        foreach (int eventId in SessionService.GetViewedEvents())
+        {
+            var eventItem = EventService.GetEventById(eventId);
+            if (eventItem != null)
+                viewedEventsLocal.Add(eventItem);
+        }
+        
+        // Load registered events
+        foreach (int eventId in SessionService.GetRegisteredEvents())
+        {
+            var eventItem = EventService.GetEventById(eventId);
+            if (eventItem != null)
+                registeredEventsLocal.Add(eventItem);
+        }
+    }
+    
+    private void ClearSession()
+    {
+        SessionService.ClearSession();
+        Navigation.NavigateTo("/", true);
+    }
+}

@@ -1,0 +1,127 @@
+﻿@page "/"
+@using Microsoft.AspNetCore.Components
+@inject UserSessionService SessionService
+@inject EventService EventService
+@inject NavigationManager Navigation
+
+<PageTitle>EventEase App - Home</PageTitle>
+
+<div class="container mt-4">
+    <div class="jumbotron">
+        <h1 class="display-4">Welcome to EventEase!</h1>
+        <p class="lead">Your one-stop platform for event management and registration.</p>
+        <hr class="my-4">
+        
+        @if (SessionService.IsLoggedIn)
+        {
+            <div class="alert alert-success">
+                <h4>Welcome back, @SessionService.UserName!</h4>
+                <p>You've been browsing for @SessionService.GetSessionDuration().ToString(@"hh\:mm\:ss").</p>
+                <p>
+                    <a href="/profile" class="btn btn-primary">View Your Profile</a>
+                    <a href="/eventlisting" class="btn btn-outline-primary">Browse Events</a>
+                </p>
+            </div>
+            
+            @if (recentlyViewedEvents.Count > 0)
+            {
+                <div class="card mt-4">
+                    <div class="card-header">
+                        <h5>Recently Viewed Events</h5>
+                    </div>
+                    <div class="card-body">
+                        <div class="row">
+                            @foreach (var eventItem in recentlyViewedEvents.Take(3))
+                            {
+                                <div class="col-md-4 mb-3">
+                                    <div class="card h-100">
+                                        <div class="card-body">
+                                            <h5 class="card-title">@eventItem.Title</h5>
+                                            <p class="card-text">
+                                                <small class="text-muted">@eventItem.Date.ToShortDateString() | @eventItem.Location</small>
+                                            </p>
+                                            <a href="/eventdetails/@eventItem.Id" class="btn btn-sm btn-primary">View Details</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            }
+                        </div>
+                    </div>
+                </div>
+            }
+        }
+        else
+        {
+            <p>Sign up by registering for an event to track your activity.</p>
+            <p>
+                <a class="btn btn-primary btn-lg" href="/eventlisting" role="button">Browse Events</a>
+            </p>
+        }
+    </div>
+    
+    <div class="row mt-4">
+        <div class="col-md-6">
+            <div class="card">
+                <div class="card-header">
+                    <h5>Upcoming Events</h5>
+                </div>
+                <div class="card-body">
+                    <div class="list-group">
+                        @foreach (var eventItem in upcomingEvents)
+                        {
+                            <a href="/eventdetails/@eventItem.Id" class="list-group-item list-group-item-action">
+                                <div class="d-flex w-100 justify-content-between">
+                                    <h5 class="mb-1">@eventItem.Title</h5>
+                                    <small>@eventItem.Date.ToShortDateString()</small>
+                                </div>
+                                <p class="mb-1">@(eventItem.Description?.Length > 100 ? eventItem.Description.Substring(0, 100) + "..." : eventItem.Description)</p>
+                                <small>@eventItem.Location</small>
+                            </a>
+                        }
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="col-md-6">
+            <div class="card">
+                <div class="card-header">
+                    <h5>Quick Actions</h5>
+                </div>
+                <div class="card-body">
+                    <div class="d-grid gap-3">
+                        <a href="/eventlisting" class="btn btn-outline-primary">View All Events</a>
+                        <a href="/addevent" class="btn btn-outline-success">Create New Event</a>
+                        <a href="/profile" class="btn btn-outline-info">View Your Profile</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+@code {
+    private List<Event> recentlyViewedEvents = new List<Event>();
+    private List<Event> upcomingEvents = new List<Event>();
+    
+    protected override void OnInitialized()
+    {
+        // Get recently viewed events
+        var viewedEventIds = SessionService.GetViewedEvents();
+        foreach (int eventId in viewedEventIds)
+        {
+            var eventItem = EventService.GetEventById(eventId);
+            if (eventItem != null)
+            {
+                recentlyViewedEvents.Add(eventItem);
+            }
+        }
+        
+        // Get upcoming events (next 5 events)
+        upcomingEvents = EventService.GetEvents()
+            .Where(e => e.Date >= DateTime.Today)
+            .OrderBy(e => e.Date)
+            .Take(5)
+            .ToList();
+    }
+}

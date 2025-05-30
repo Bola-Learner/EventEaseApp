@@ -1,0 +1,69 @@
+﻿@page "/eventlisting"
+@page "/events"
+@using Microsoft.AspNetCore.Components
+@using Microsoft.AspNetCore.Components.Forms
+@inject EventService EventService
+@inject UserSessionService SessionService
+
+<div class="container mt-4">
+    <h3>Upcoming Events</h3>
+    
+    @if (SessionService.IsLoggedIn)
+    {
+        <div class="alert alert-info mb-4">
+            <div class="d-flex justify-content-between align-items-center">
+                <div>
+                    <p class="mb-0">Welcome, @SessionService.UserName! You have viewed @SessionService.GetViewedEvents().Count events and registered for @SessionService.GetRegisteredEvents().Count events.</p>
+                </div>
+                <div>
+                    <a href="/profile" class="btn btn-outline-primary btn-sm">View Your Profile</a>
+                </div>
+            </div>
+        </div>
+    }
+
+    <div class="row">
+        @foreach (var eventItem in EventService.GetEvents())
+        {
+            <div class="col-md-4 mb-4">
+                <div class="card h-100">
+                    <div class="card-body">
+                        <h5 class="card-title">@eventItem.Title</h5>
+                        <h6 class="card-subtitle mb-2 text-muted">@eventItem.Date.ToShortDateString() | @eventItem.Location</h6>
+                        <p class="card-text">@(eventItem.Description?.Length > 100 ? eventItem.Description.Substring(0, 100) + "..." : eventItem.Description)</p>
+                        
+                        @if (SessionService.HasViewedEvent(eventItem.Id))
+                        {
+                            <div class="mb-2">
+                                <span class="badge bg-info">Recently Viewed</span>
+                            </div>
+                        }
+                        
+                        @if (SessionService.HasRegisteredForEvent(eventItem.Id))
+                        {
+                            <div class="mb-2">
+                                <span class="badge bg-success">Registered</span>
+                            </div>
+                        }
+                    </div>
+                    <div class="card-footer bg-transparent">
+                        <div class="d-flex justify-content-between">
+                            <a href="eventdetails/@eventItem.Id" class="btn btn-outline-primary btn-sm">View Details</a>
+                            @if (!SessionService.HasRegisteredForEvent(eventItem.Id))
+                            {
+                                <a href="/eventreg/@eventItem.Id" class="btn btn-primary btn-sm">Register</a>
+                            }
+                            else
+                            {
+                                <button class="btn btn-success btn-sm" disabled>Registered</button>
+                            }
+                        </div>
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+</div>
+
+@code {
+}

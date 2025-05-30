@@ -1,0 +1,51 @@
+﻿@page "/eventdetails/{EventId:int}"
+@using Microsoft.AspNetCore.Components
+@inject EventService EventService
+@inject UserSessionService SessionService
+
+@code {
+    [Parameter]
+    public int EventId { get; set; }
+    private Event? currentEvent;
+
+    protected override void OnInitialized()
+    {
+        currentEvent = EventService.GetEventById(EventId);
+        
+        // Track that this event was viewed in the user session
+        if (currentEvent != null)
+        {
+            SessionService.TrackEventView(EventId);
+        }
+    }
+}
+
+@if (currentEvent is null)
+{
+    <p>Event not found!</p>
+}
+else
+{
+    <div class="container">
+        <h3>@currentEvent.Title</h3>
+        <p><strong>Date:</strong> @currentEvent.Date.ToShortDateString()</p>
+        <p><strong>Location:</strong> @currentEvent.Location</p>
+        <p><strong>Description:</strong> @currentEvent.Description</p>
+        
+        @if (SessionService.HasRegisteredForEvent(EventId))
+        {
+            <div class="alert alert-success">
+                You are already registered for this event.
+            </div>
+        }
+        else
+        {
+            <a href="/eventreg/@currentEvent.Id" class="btn btn-primary">Register for this Event</a>
+        }
+        
+        <div class="mt-3">
+            <a href="/eventlisting" class="btn btn-secondary">Back to Events</a>
+        </div>
+    </div>
+}
+

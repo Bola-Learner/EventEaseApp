@@ -1,0 +1,62 @@
+@page "/addevent"
+@using Microsoft.AspNetCore.Components.Forms
+@inject EventService EventService
+@inject UserSessionService SessionService
+@inject NavigationManager Navigation
+
+<PageTitle>Add Event</PageTitle>
+
+<div class="container">
+    <h3>Add New Event</h3>
+
+    <EditForm Model="@newEvent" OnValidSubmit="HandleValidSubmit">
+        <DataAnnotationsValidator />
+        <ValidationSummary />
+        
+        <div class="mb-3">
+            <label for="title" class="form-label">Title</label>
+            <InputText id="title" @bind-Value="newEvent.Title" class="form-control" />
+            <ValidationMessage For="@(() => newEvent.Title)" />
+        </div>
+
+        <div class="mb-3">
+            <label for="description" class="form-label">Description</label>
+            <InputTextArea id="description" @bind-Value="newEvent.Description" class="form-control" />
+            <ValidationMessage For="@(() => newEvent.Description)" />
+        </div>
+
+        <div class="mb-3">
+            <label for="date" class="form-label">Date</label>
+            <InputDate id="date" @bind-Value="newEvent.Date" class="form-control" />
+            <ValidationMessage For="@(() => newEvent.Date)" />
+        </div>
+
+        <div class="mb-3">
+            <label for="location" class="form-label">Location</label>
+            <InputText id="location" @bind-Value="newEvent.Location" class="form-control" />
+            <ValidationMessage For="@(() => newEvent.Location)" />
+        </div>
+
+        <button type="submit" class="btn btn-primary">Add Event</button>
+    </EditForm>
+</div>
+
+@code {
+    private Event newEvent = new Event() { Date = DateTime.Now };
+
+    private void HandleValidSubmit()
+    {
+        // Add the event to EventService
+        EventService.AddEvent(newEvent);
+        
+        // Only track the view if SessionService exists
+        int newEventId = newEvent.Id;
+        if (newEventId > 0 && SessionService != null)
+        {
+            // Auto-track the view since the user created this event
+            SessionService.TrackEventView(newEventId);
+        }
+        
+        Navigation.NavigateTo("/eventlisting");
+    }
+}
