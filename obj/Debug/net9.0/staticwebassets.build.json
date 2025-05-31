@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "wpmv0FEj0lFcPI3cEjQOfOWCDlkovrnHJfyyhPNdZt8=",
+  "Hash": "r6KDR2cpOyalJlgOSAJMhm+Y6jEaBnlU1Wbi8w3uWlI=",
   "Source": "EventEaseApp",
   "BasePath": "/",
   "Mode": "Root",
@@ -31,8 +31,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "WasmResource",
       "AssetTraitValue": "manifest",
-      "Fingerprint": "rmhzoohu0r",
-      "Integrity": "/bNYAhr0gl35KV1V3p94HinS4cn5Kpw2OKzqkj6l2AY=",
+      "Fingerprint": "sva9bzd17g",
+      "Integrity": "qPnRzD0mryOsGRDTwUUZEwPta8NfBxDLyvhGjhkARf8=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "obj/Debug/net9.0/blazor.boot.json"
@@ -199,8 +199,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "WasmResource",
       "AssetTraitValue": "symbol",
-      "Fingerprint": "j0x9damgf3",
-      "Integrity": "YwT50ZjmMG4Bp9mkp7VIYr0ykJUygD+7if9B9BgZQOE=",
+      "Fingerprint": "754kyi7h3j",
+      "Integrity": "++tPs07jM8FPe8lNVfh/ngfHpZuaiIjkZEFz3/zcdGw=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "obj/Debug/net9.0/EventEaseApp.pdb"
@@ -220,8 +220,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "WasmResource",
       "AssetTraitValue": "runtime",
-      "Fingerprint": "x8h1qsz5o3",
-      "Integrity": "bzgAqRTZHizLwNmvdfllmWZ4JSVLR4AbuOPXaW2cakw=",
+      "Fingerprint": "za6iid2caj",
+      "Integrity": "a7bzCsxhA+Fc4FhMlMdvi1Pfu3o0EYPomCY9aB10F20=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "/Users/bolajiyakub/WorkStation/DevTwo/BlazorFramework/TrainingOne/PartTwo/Three/EventEaseApp/obj/Debug/net9.0/webcil/EventEaseApp.wasm"
@@ -5645,7 +5645,7 @@
       "OriginalItemSpec": "/Users/bolajiyakub/WorkStation/DevTwo/BlazorFramework/TrainingOne/PartTwo/Three/EventEaseApp/bin/Debug/net9.0/wwwroot/_framework/System.IO.UnmanagedMemoryStream.wasm"
     },
     {
-      "Identity": "/Users/bolajiyakub/WorkStation/DevTwo/BlazorFramework/TrainingOne/PartTwo/Three/EventEaseApp/obj/Debug/net9.0/compressed/a1w0b3e4ey-rmhzoohu0r.gz",
+      "Identity": "/Users/bolajiyakub/WorkStation/DevTwo/BlazorFramework/TrainingOne/PartTwo/Three/EventEaseApp/obj/Debug/net9.0/compressed/a1w0b3e4ey-sva9bzd17g.gz",
       "SourceId": "EventEaseApp",
       "SourceType": "Computed",
       "ContentRoot": "/Users/bolajiyakub/WorkStation/DevTwo/BlazorFramework/TrainingOne/PartTwo/Three/EventEaseApp/obj/Debug/net9.0/compressed/",
@@ -5659,8 +5659,8 @@
       "RelatedAsset": "/Users/bolajiyakub/WorkStation/DevTwo/BlazorFramework/TrainingOne/PartTwo/Three/EventEaseApp/bin/Debug/net9.0/wwwroot/_framework/blazor.boot.json",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "c5l4s2pgnz",
-      "Integrity": "8EfqnmY52g6DPLqEwAh3SsQzopFhToV6cqyBbllg1OE=",
+      "Fingerprint": "wr87bjg377",
+      "Integrity": "LP8XUXd26aUvtGB7JufoIB/h7EW45Rah2lafgKViQIs=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "/Users/bolajiyakub/WorkStation/DevTwo/BlazorFramework/TrainingOne/PartTwo/Three/EventEaseApp/bin/Debug/net9.0/wwwroot/_framework/blazor.boot.json"
@@ -5918,12 +5918,12 @@
       "OriginalItemSpec": "/Users/bolajiyakub/WorkStation/DevTwo/BlazorFramework/TrainingOne/PartTwo/Three/EventEaseApp/bin/Debug/net9.0/wwwroot/_framework/System.Security.Cryptography.Cng.wasm"
     },
     {
-      "Identity": "/Users/bolajiyakub/WorkStation/DevTwo/BlazorFramework/TrainingOne/PartTwo/Three/EventEaseApp/obj/Debug/net9.0/compressed/c1jhhq4o6d-j0x9damgf3.gz",
+      "Identity": "/Users/bolajiyakub/WorkStation/DevTwo/BlazorFramework/TrainingOne/PartTwo/Three/EventEaseApp/obj/Debug/net9.0/compressed/c1jhhq4o6d-754kyi7h3j.gz",
       "SourceId": "EventEaseApp",
       "SourceType": "Computed",
       "ContentRoot": "/Users/bolajiyakub/WorkStation/DevTwo/BlazorFramework/TrainingOne/PartTwo/Three/EventEaseApp/obj/Debug/net9.0/compressed/",
       "BasePath": "/",
-      "RelativePath": "_framework/EventEaseApp#[.{fingerprint=j0x9damgf3}]!.pdb.gz",
+      "RelativePath": "_framework/EventEaseApp#[.{fingerprint=754kyi7h3j}]!.pdb.gz",
       "AssetKind": "Build",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -5932,8 +5932,8 @@
       "RelatedAsset": "/Users/bolajiyakub/WorkStation/DevTwo/BlazorFramework/TrainingOne/PartTwo/Three/EventEaseApp/bin/Debug/net9.0/wwwroot/_framework/EventEaseApp.pdb",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "bu1xcpta63",
-      "Integrity": "k2f60fhIMJxKug/XET5r3oIEW2m1h0RSeV5nw10K4wE=",
+      "Fingerprint": "xuzpmj9bye",
+      "Integrity": "NywxjFd3Q8ncQweSMU0VuE2ENIuJqyDhsPVGD0pq6vA=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "/Users/bolajiyakub/WorkStation/DevTwo/BlazorFramework/TrainingOne/PartTwo/Three/EventEaseApp/bin/Debug/net9.0/wwwroot/_framework/EventEaseApp.pdb"
@@ -8396,12 +8396,12 @@
       "OriginalItemSpec": "/Users/bolajiyakub/WorkStation/DevTwo/BlazorFramework/TrainingOne/PartTwo/Three/EventEaseApp/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css.map"
     },
     {
-      "Identity": "/Users/bolajiyakub/WorkStation/DevTwo/BlazorFramework/TrainingOne/PartTwo/Three/EventEaseApp/obj/Debug/net9.0/compressed/skwk8s9ui1-x8h1qsz5o3.gz",
+      "Identity": "/Users/bolajiyakub/WorkStation/DevTwo/BlazorFramework/TrainingOne/PartTwo/Three/EventEaseApp/obj/Debug/net9.0/compressed/skwk8s9ui1-za6iid2caj.gz",
       "SourceId": "EventEaseApp",
       "SourceType": "Computed",
       "ContentRoot": "/Users/bolajiyakub/WorkStation/DevTwo/BlazorFramework/TrainingOne/PartTwo/Three/EventEaseApp/obj/Debug/net9.0/compressed/",
       "BasePath": "/",
-      "RelativePath": "_framework/EventEaseApp#[.{fingerprint=x8h1qsz5o3}]!.wasm.gz",
+      "RelativePath": "_framework/EventEaseApp#[.{fingerprint=za6iid2caj}]!.wasm.gz",
       "AssetKind": "Build",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -8410,8 +8410,8 @@
       "RelatedAsset": "/Users/bolajiyakub/WorkStation/DevTwo/BlazorFramework/TrainingOne/PartTwo/Three/EventEaseApp/bin/Debug/net9.0/wwwroot/_framework/EventEaseApp.wasm",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "t8k93meeyc",
-      "Integrity": "vSk6cyKSMNgW4Dhj/5QxSgVlCu3vadNiFkhxOeSvczI=",
+      "Fingerprint": "ny1acrou7m",
+      "Integrity": "bwBejn+Z8r4vgjokdZtcG+33HT1fqefnovHZb9n/xzM=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "/Users/bolajiyakub/WorkStation/DevTwo/BlazorFramework/TrainingOne/PartTwo/Three/EventEaseApp/bin/Debug/net9.0/wwwroot/_framework/EventEaseApp.wasm"
@@ -10663,11 +10663,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"/bNYAhr0gl35KV1V3p94HinS4cn5Kpw2OKzqkj6l2AY=\""
+          "Value": "\"qPnRzD0mryOsGRDTwUUZEwPta8NfBxDLyvhGjhkARf8=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 30 May 2025 21:16:29 GMT"
+          "Value": "Sat, 31 May 2025 06:44:33 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -10677,13 +10677,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-/bNYAhr0gl35KV1V3p94HinS4cn5Kpw2OKzqkj6l2AY="
+          "Value": "sha256-qPnRzD0mryOsGRDTwUUZEwPta8NfBxDLyvhGjhkARf8="
         }
       ]
     },
     {
       "Route": "_framework/blazor.boot.json",
-      "AssetFile": "/Users/bolajiyakub/WorkStation/DevTwo/BlazorFramework/TrainingOne/PartTwo/Three/EventEaseApp/obj/Debug/net9.0/compressed/a1w0b3e4ey-rmhzoohu0r.gz",
+      "AssetFile": "/Users/bolajiyakub/WorkStation/DevTwo/BlazorFramework/TrainingOne/PartTwo/Three/EventEaseApp/obj/Debug/net9.0/compressed/a1w0b3e4ey-sva9bzd17g.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
@@ -10702,11 +10702,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"8EfqnmY52g6DPLqEwAh3SsQzopFhToV6cqyBbllg1OE=\""
+          "Value": "\"LP8XUXd26aUvtGB7JufoIB/h7EW45Rah2lafgKViQIs=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 30 May 2025 21:16:18 GMT"
+          "Value": "Fri, 30 May 2025 21:16:29 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -10726,19 +10726,19 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"/bNYAhr0gl35KV1V3p94HinS4cn5Kpw2OKzqkj6l2AY=\""
+          "Value": "W/\"qPnRzD0mryOsGRDTwUUZEwPta8NfBxDLyvhGjhkARf8=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-/bNYAhr0gl35KV1V3p94HinS4cn5Kpw2OKzqkj6l2AY="
+          "Value": "sha256-qPnRzD0mryOsGRDTwUUZEwPta8NfBxDLyvhGjhkARf8="
         }
       ]
     },
     {
       "Route": "_framework/blazor.boot.json.gz",
-      "AssetFile": "/Users/bolajiyakub/WorkStation/DevTwo/BlazorFramework/TrainingOne/PartTwo/Three/EventEaseApp/obj/Debug/net9.0/compressed/a1w0b3e4ey-rmhzoohu0r.gz",
+      "AssetFile": "/Users/bolajiyakub/WorkStation/DevTwo/BlazorFramework/TrainingOne/PartTwo/Three/EventEaseApp/obj/Debug/net9.0/compressed/a1w0b3e4ey-sva9bzd17g.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -10755,11 +10755,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"8EfqnmY52g6DPLqEwAh3SsQzopFhToV6cqyBbllg1OE=\""
+          "Value": "\"LP8XUXd26aUvtGB7JufoIB/h7EW45Rah2lafgKViQIs=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 30 May 2025 21:16:18 GMT"
+          "Value": "Fri, 30 May 2025 21:16:29 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -10777,7 +10777,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-8EfqnmY52g6DPLqEwAh3SsQzopFhToV6cqyBbllg1OE="
+          "Value": "sha256-LP8XUXd26aUvtGB7JufoIB/h7EW45Rah2lafgKViQIs="
         }
       ]
     },
@@ -12707,7 +12707,7 @@
       ]
     },
     {
-      "Route": "_framework/EventEaseApp.j0x9damgf3.pdb",
+      "Route": "_framework/EventEaseApp.754kyi7h3j.pdb",
       "AssetFile": "/Users/bolajiyakub/WorkStation/DevTwo/BlazorFramework/TrainingOne/PartTwo/Three/EventEaseApp/bin/Debug/net9.0/wwwroot/_framework/EventEaseApp.pdb",
       "Selectors": [],
       "ResponseHeaders": [
@@ -12717,7 +12717,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "44472"
+          "Value": "44712"
         },
         {
           "Name": "Content-Type",
@@ -12725,11 +12725,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"YwT50ZjmMG4Bp9mkp7VIYr0ykJUygD+7if9B9BgZQOE=\""
+          "Value": "\"++tPs07jM8FPe8lNVfh/ngfHpZuaiIjkZEFz3/zcdGw=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 30 May 2025 21:16:17 GMT"
+          "Value": "Sat, 31 May 2025 06:44:31 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -12739,7 +12739,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "j0x9damgf3"
+          "Value": "754kyi7h3j"
         },
         {
           "Name": "label",
@@ -12747,18 +12747,18 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-YwT50ZjmMG4Bp9mkp7VIYr0ykJUygD+7if9B9BgZQOE="
+          "Value": "sha256-++tPs07jM8FPe8lNVfh/ngfHpZuaiIjkZEFz3/zcdGw="
         }
       ]
     },
     {
-      "Route": "_framework/EventEaseApp.j0x9damgf3.pdb",
-      "AssetFile": "/Users/bolajiyakub/WorkStation/DevTwo/BlazorFramework/TrainingOne/PartTwo/Three/EventEaseApp/obj/Debug/net9.0/compressed/c1jhhq4o6d-j0x9damgf3.gz",
+      "Route": "_framework/EventEaseApp.754kyi7h3j.pdb",
+      "AssetFile": "/Users/bolajiyakub/WorkStation/DevTwo/BlazorFramework/TrainingOne/PartTwo/Three/EventEaseApp/obj/Debug/net9.0/compressed/c1jhhq4o6d-754kyi7h3j.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000028769527"
+          "Quality": "0.000028632785"
         }
       ],
       "ResponseHeaders": [
@@ -12768,15 +12768,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "34758"
+          "Value": "34924"
         },
         {
           "Name": "ETag",
-          "Value": "\"k2f60fhIMJxKug/XET5r3oIEW2m1h0RSeV5nw10K4wE=\""
+          "Value": "\"NywxjFd3Q8ncQweSMU0VuE2ENIuJqyDhsPVGD0pq6vA=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 30 May 2025 21:16:18 GMT"
+          "Value": "Sat, 31 May 2025 06:44:33 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -12796,13 +12796,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"YwT50ZjmMG4Bp9mkp7VIYr0ykJUygD+7if9B9BgZQOE=\""
+          "Value": "W/\"++tPs07jM8FPe8lNVfh/ngfHpZuaiIjkZEFz3/zcdGw=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "j0x9damgf3"
+          "Value": "754kyi7h3j"
         },
         {
           "Name": "label",
@@ -12810,13 +12810,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-YwT50ZjmMG4Bp9mkp7VIYr0ykJUygD+7if9B9BgZQOE="
+          "Value": "sha256-++tPs07jM8FPe8lNVfh/ngfHpZuaiIjkZEFz3/zcdGw="
         }
       ]
     },
     {
-      "Route": "_framework/EventEaseApp.j0x9damgf3.pdb.gz",
-      "AssetFile": "/Users/bolajiyakub/WorkStation/DevTwo/BlazorFramework/TrainingOne/PartTwo/Three/EventEaseApp/obj/Debug/net9.0/compressed/c1jhhq4o6d-j0x9damgf3.gz",
+      "Route": "_framework/EventEaseApp.754kyi7h3j.pdb.gz",
+      "AssetFile": "/Users/bolajiyakub/WorkStation/DevTwo/BlazorFramework/TrainingOne/PartTwo/Three/EventEaseApp/obj/Debug/net9.0/compressed/c1jhhq4o6d-754kyi7h3j.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -12825,7 +12825,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "34758"
+          "Value": "34924"
         },
         {
           "Name": "Content-Type",
@@ -12833,11 +12833,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"k2f60fhIMJxKug/XET5r3oIEW2m1h0RSeV5nw10K4wE=\""
+          "Value": "\"NywxjFd3Q8ncQweSMU0VuE2ENIuJqyDhsPVGD0pq6vA=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 30 May 2025 21:16:18 GMT"
+          "Value": "Sat, 31 May 2025 06:44:33 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -12855,7 +12855,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "j0x9damgf3"
+          "Value": "754kyi7h3j"
         },
         {
           "Name": "label",
@@ -12863,7 +12863,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-k2f60fhIMJxKug/XET5r3oIEW2m1h0RSeV5nw10K4wE="
+          "Value": "sha256-NywxjFd3Q8ncQweSMU0VuE2ENIuJqyDhsPVGD0pq6vA="
         }
       ]
     },
@@ -12878,7 +12878,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "44472"
+          "Value": "44712"
         },
         {
           "Name": "Content-Type",
@@ -12886,11 +12886,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"YwT50ZjmMG4Bp9mkp7VIYr0ykJUygD+7if9B9BgZQOE=\""
+          "Value": "\"++tPs07jM8FPe8lNVfh/ngfHpZuaiIjkZEFz3/zcdGw=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 30 May 2025 21:16:17 GMT"
+          "Value": "Sat, 31 May 2025 06:44:31 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -12900,18 +12900,18 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-YwT50ZjmMG4Bp9mkp7VIYr0ykJUygD+7if9B9BgZQOE="
+          "Value": "sha256-++tPs07jM8FPe8lNVfh/ngfHpZuaiIjkZEFz3/zcdGw="
         }
       ]
     },
     {
       "Route": "_framework/EventEaseApp.pdb",
-      "AssetFile": "/Users/bolajiyakub/WorkStation/DevTwo/BlazorFramework/TrainingOne/PartTwo/Three/EventEaseApp/obj/Debug/net9.0/compressed/c1jhhq4o6d-j0x9damgf3.gz",
+      "AssetFile": "/Users/bolajiyakub/WorkStation/DevTwo/BlazorFramework/TrainingOne/PartTwo/Three/EventEaseApp/obj/Debug/net9.0/compressed/c1jhhq4o6d-754kyi7h3j.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000028769527"
+          "Quality": "0.000028632785"
         }
       ],
       "ResponseHeaders": [
@@ -12921,15 +12921,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "34758"
+          "Value": "34924"
         },
         {
           "Name": "ETag",
-          "Value": "\"k2f60fhIMJxKug/XET5r3oIEW2m1h0RSeV5nw10K4wE=\""
+          "Value": "\"NywxjFd3Q8ncQweSMU0VuE2ENIuJqyDhsPVGD0pq6vA=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 30 May 2025 21:16:18 GMT"
+          "Value": "Sat, 31 May 2025 06:44:33 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -12949,19 +12949,19 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"YwT50ZjmMG4Bp9mkp7VIYr0ykJUygD+7if9B9BgZQOE=\""
+          "Value": "W/\"++tPs07jM8FPe8lNVfh/ngfHpZuaiIjkZEFz3/zcdGw=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-YwT50ZjmMG4Bp9mkp7VIYr0ykJUygD+7if9B9BgZQOE="
+          "Value": "sha256-++tPs07jM8FPe8lNVfh/ngfHpZuaiIjkZEFz3/zcdGw="
         }
       ]
     },
     {
       "Route": "_framework/EventEaseApp.pdb.gz",
-      "AssetFile": "/Users/bolajiyakub/WorkStation/DevTwo/BlazorFramework/TrainingOne/PartTwo/Three/EventEaseApp/obj/Debug/net9.0/compressed/c1jhhq4o6d-j0x9damgf3.gz",
+      "AssetFile": "/Users/bolajiyakub/WorkStation/DevTwo/BlazorFramework/TrainingOne/PartTwo/Three/EventEaseApp/obj/Debug/net9.0/compressed/c1jhhq4o6d-754kyi7h3j.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -12970,7 +12970,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "34758"
+          "Value": "34924"
         },
         {
           "Name": "Content-Type",
@@ -12978,11 +12978,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"k2f60fhIMJxKug/XET5r3oIEW2m1h0RSeV5nw10K4wE=\""
+          "Value": "\"NywxjFd3Q8ncQweSMU0VuE2ENIuJqyDhsPVGD0pq6vA=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 30 May 2025 21:16:18 GMT"
+          "Value": "Sat, 31 May 2025 06:44:33 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -13000,7 +13000,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-k2f60fhIMJxKug/XET5r3oIEW2m1h0RSeV5nw10K4wE="
+          "Value": "sha256-NywxjFd3Q8ncQweSMU0VuE2ENIuJqyDhsPVGD0pq6vA="
         }
       ]
     },
@@ -13023,11 +13023,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"bzgAqRTZHizLwNmvdfllmWZ4JSVLR4AbuOPXaW2cakw=\""
+          "Value": "\"a7bzCsxhA+Fc4FhMlMdvi1Pfu3o0EYPomCY9aB10F20=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 30 May 2025 21:16:17 GMT"
+          "Value": "Sat, 31 May 2025 06:44:31 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -13037,18 +13037,18 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-bzgAqRTZHizLwNmvdfllmWZ4JSVLR4AbuOPXaW2cakw="
+          "Value": "sha256-a7bzCsxhA+Fc4FhMlMdvi1Pfu3o0EYPomCY9aB10F20="
         }
       ]
     },
     {
       "Route": "_framework/EventEaseApp.wasm",
-      "AssetFile": "/Users/bolajiyakub/WorkStation/DevTwo/BlazorFramework/TrainingOne/PartTwo/Three/EventEaseApp/obj/Debug/net9.0/compressed/skwk8s9ui1-x8h1qsz5o3.gz",
+      "AssetFile": "/Users/bolajiyakub/WorkStation/DevTwo/BlazorFramework/TrainingOne/PartTwo/Three/EventEaseApp/obj/Debug/net9.0/compressed/skwk8s9ui1-za6iid2caj.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000052323148"
+          "Quality": "0.000052042675"
         }
       ],
       "ResponseHeaders": [
@@ -13058,15 +13058,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "19111"
+          "Value": "19214"
         },
         {
           "Name": "ETag",
-          "Value": "\"vSk6cyKSMNgW4Dhj/5QxSgVlCu3vadNiFkhxOeSvczI=\""
+          "Value": "\"bwBejn+Z8r4vgjokdZtcG+33HT1fqefnovHZb9n/xzM=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 30 May 2025 21:16:18 GMT"
+          "Value": "Sat, 31 May 2025 06:44:33 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -13086,19 +13086,19 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"bzgAqRTZHizLwNmvdfllmWZ4JSVLR4AbuOPXaW2cakw=\""
+          "Value": "W/\"a7bzCsxhA+Fc4FhMlMdvi1Pfu3o0EYPomCY9aB10F20=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-bzgAqRTZHizLwNmvdfllmWZ4JSVLR4AbuOPXaW2cakw="
+          "Value": "sha256-a7bzCsxhA+Fc4FhMlMdvi1Pfu3o0EYPomCY9aB10F20="
         }
       ]
     },
     {
       "Route": "_framework/EventEaseApp.wasm.gz",
-      "AssetFile": "/Users/bolajiyakub/WorkStation/DevTwo/BlazorFramework/TrainingOne/PartTwo/Three/EventEaseApp/obj/Debug/net9.0/compressed/skwk8s9ui1-x8h1qsz5o3.gz",
+      "AssetFile": "/Users/bolajiyakub/WorkStation/DevTwo/BlazorFramework/TrainingOne/PartTwo/Three/EventEaseApp/obj/Debug/net9.0/compressed/skwk8s9ui1-za6iid2caj.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -13107,7 +13107,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "19111"
+          "Value": "19214"
         },
         {
           "Name": "Content-Type",
@@ -13115,11 +13115,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"vSk6cyKSMNgW4Dhj/5QxSgVlCu3vadNiFkhxOeSvczI=\""
+          "Value": "\"bwBejn+Z8r4vgjokdZtcG+33HT1fqefnovHZb9n/xzM=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 30 May 2025 21:16:18 GMT"
+          "Value": "Sat, 31 May 2025 06:44:33 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -13137,12 +13137,12 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-vSk6cyKSMNgW4Dhj/5QxSgVlCu3vadNiFkhxOeSvczI="
+          "Value": "sha256-bwBejn+Z8r4vgjokdZtcG+33HT1fqefnovHZb9n/xzM="
         }
       ]
     },
     {
-      "Route": "_framework/EventEaseApp.x8h1qsz5o3.wasm",
+      "Route": "_framework/EventEaseApp.za6iid2caj.wasm",
       "AssetFile": "/Users/bolajiyakub/WorkStation/DevTwo/BlazorFramework/TrainingOne/PartTwo/Three/EventEaseApp/bin/Debug/net9.0/wwwroot/_framework/EventEaseApp.wasm",
       "Selectors": [],
       "ResponseHeaders": [
@@ -13160,11 +13160,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"bzgAqRTZHizLwNmvdfllmWZ4JSVLR4AbuOPXaW2cakw=\""
+          "Value": "\"a7bzCsxhA+Fc4FhMlMdvi1Pfu3o0EYPomCY9aB10F20=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 30 May 2025 21:16:17 GMT"
+          "Value": "Sat, 31 May 2025 06:44:31 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -13174,7 +13174,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "x8h1qsz5o3"
+          "Value": "za6iid2caj"
         },
         {
           "Name": "label",
@@ -13182,18 +13182,18 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-bzgAqRTZHizLwNmvdfllmWZ4JSVLR4AbuOPXaW2cakw="
+          "Value": "sha256-a7bzCsxhA+Fc4FhMlMdvi1Pfu3o0EYPomCY9aB10F20="
         }
       ]
     },
     {
-      "Route": "_framework/EventEaseApp.x8h1qsz5o3.wasm",
-      "AssetFile": "/Users/bolajiyakub/WorkStation/DevTwo/BlazorFramework/TrainingOne/PartTwo/Three/EventEaseApp/obj/Debug/net9.0/compressed/skwk8s9ui1-x8h1qsz5o3.gz",
+      "Route": "_framework/EventEaseApp.za6iid2caj.wasm",
+      "AssetFile": "/Users/bolajiyakub/WorkStation/DevTwo/BlazorFramework/TrainingOne/PartTwo/Three/EventEaseApp/obj/Debug/net9.0/compressed/skwk8s9ui1-za6iid2caj.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000052323148"
+          "Quality": "0.000052042675"
         }
       ],
       "ResponseHeaders": [
@@ -13203,15 +13203,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "19111"
+          "Value": "19214"
         },
         {
           "Name": "ETag",
-          "Value": "\"vSk6cyKSMNgW4Dhj/5QxSgVlCu3vadNiFkhxOeSvczI=\""
+          "Value": "\"bwBejn+Z8r4vgjokdZtcG+33HT1fqefnovHZb9n/xzM=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 30 May 2025 21:16:18 GMT"
+          "Value": "Sat, 31 May 2025 06:44:33 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -13231,13 +13231,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"bzgAqRTZHizLwNmvdfllmWZ4JSVLR4AbuOPXaW2cakw=\""
+          "Value": "W/\"a7bzCsxhA+Fc4FhMlMdvi1Pfu3o0EYPomCY9aB10F20=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "x8h1qsz5o3"
+          "Value": "za6iid2caj"
         },
         {
           "Name": "label",
@@ -13245,13 +13245,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-bzgAqRTZHizLwNmvdfllmWZ4JSVLR4AbuOPXaW2cakw="
+          "Value": "sha256-a7bzCsxhA+Fc4FhMlMdvi1Pfu3o0EYPomCY9aB10F20="
         }
       ]
     },
     {
-      "Route": "_framework/EventEaseApp.x8h1qsz5o3.wasm.gz",
-      "AssetFile": "/Users/bolajiyakub/WorkStation/DevTwo/BlazorFramework/TrainingOne/PartTwo/Three/EventEaseApp/obj/Debug/net9.0/compressed/skwk8s9ui1-x8h1qsz5o3.gz",
+      "Route": "_framework/EventEaseApp.za6iid2caj.wasm.gz",
+      "AssetFile": "/Users/bolajiyakub/WorkStation/DevTwo/BlazorFramework/TrainingOne/PartTwo/Three/EventEaseApp/obj/Debug/net9.0/compressed/skwk8s9ui1-za6iid2caj.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -13260,7 +13260,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "19111"
+          "Value": "19214"
         },
         {
           "Name": "Content-Type",
@@ -13268,11 +13268,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"vSk6cyKSMNgW4Dhj/5QxSgVlCu3vadNiFkhxOeSvczI=\""
+          "Value": "\"bwBejn+Z8r4vgjokdZtcG+33HT1fqefnovHZb9n/xzM=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 30 May 2025 21:16:18 GMT"
+          "Value": "Sat, 31 May 2025 06:44:33 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -13290,7 +13290,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "x8h1qsz5o3"
+          "Value": "za6iid2caj"
         },
         {
           "Name": "label",
@@ -13298,7 +13298,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-vSk6cyKSMNgW4Dhj/5QxSgVlCu3vadNiFkhxOeSvczI="
+          "Value": "sha256-bwBejn+Z8r4vgjokdZtcG+33HT1fqefnovHZb9n/xzM="
         }
       ]
     },
