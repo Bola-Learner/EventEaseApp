@@ -33,6 +33,10 @@ sed -i '' 's|<base href="/" />|<base href="/EventEaseApp/" />|g' docs/index.html
 echo "${GREEN}Cleaning up any duplicate base tags...${NC}"
 sed -i '' '/<base href="\/EventEaseApp\/" \/>/!{/<base href/d;}' docs/index.html
 
+# Step 7: Set up SPA routing for GitHub Pages
+echo "${GREEN}Setting up SPA routing for GitHub Pages...${NC}"
+./setup-spa-routing.sh
+
 echo "${YELLOW}Publish process completed successfully.${NC}"
 echo "${GREEN}You can now commit and push your changes to GitHub.${NC}"
 echo "${GREEN}Your app will be available at https://yourusername.github.io/EventEaseApp/${NC}"

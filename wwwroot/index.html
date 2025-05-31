@@ -5,10 +5,34 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>EventEaseApp</title>
     <base href="/EventEaseApp/" />
-    <link rel="stylesheet" href="lib/bootstrap/dist/css/bootstrap.min.css" />
-    <link rel="stylesheet" href="css/app.css" />
+    <link rel="stylesheet" href="lib/bootstrap/dist/css/bootstrap.min.css" />    <link rel="stylesheet" href="css/app.css" />
     <link rel="icon" type="image/png" href="favicon.png" />
     <link href="EventEaseApp.styles.css" rel="stylesheet" />
+    
+    <!-- GitHub Pages SPA routing script -->
+    <script type="text/javascript">
+        // This script improves routing for Blazor on GitHub Pages
+        window.addEventListener('load', function() {
+            // If we have a path stored from a 404 redirect
+            var storedPath = sessionStorage.getItem('spa-path');
+            if (storedPath) {
+                console.log('Found stored path: ' + storedPath);
+                sessionStorage.removeItem('spa-path');
+                
+                // Allow the app to initialize first
+                setTimeout(function() {
+                    // Navigate to the stored path
+                    var navPath = '/' + storedPath;
+                    console.log('Navigating to: ' + navPath);
+                    
+                    // Use Blazor's navigation manager
+                    if (window.Blazor && window.Blazor.navigateTo) {
+                        window.Blazor.navigateTo(navPath, { forceLoad: false });
+                    }
+                }, 500);
+            }
+        });
+    </script>
 </head>
 
 <body>

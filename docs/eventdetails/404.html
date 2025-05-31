@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Page Not Found</title>
+    <script>
+        // This is a special 404.html file for the eventdetails folder
+        // It captures any eventdetails/:id path and redirects to the root app
+        var pathSegments = window.location.pathname.split('/');
+        var id = pathSegments[pathSegments.length - 1];
+        
+        // Store the original path in sessionStorage
+        if (id && !isNaN(parseInt(id))) {
+            sessionStorage.setItem('spa-path', 'eventdetails/' + id);
+        } else {
+            sessionStorage.setItem('spa-path', 'eventdetails');
+        }
+        
+        // Redirect to app's root
+        window.location.href = '/EventEaseApp/';
+    </script>
+</head>
+<body>
+    <p>Redirecting...</p>
+</body>
+</html>

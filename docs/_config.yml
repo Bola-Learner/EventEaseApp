@@ -1,8 +1,8 @@
-{
-  "baseurl": "/EventEaseApp",
-  "permalink": "pretty",
-  "include": [
-    "_framework",
-    "_content"
-  ]
-}
+# GitHub Pages configuration for Blazor WebAssembly app
+baseurl: "/EventEaseApp"
+permalink: pretty
+include:
+  - _framework
+  - _content
+  - .nojekyll
+  - "*.html"
