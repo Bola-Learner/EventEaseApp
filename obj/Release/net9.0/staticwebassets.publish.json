@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "UM6tPmGDDpdbToMH1M2Lws+3WnVCm1P1g7xQMaPwJRU=",
+  "Hash": "keJQEfL3PivVE8mxMoHJGLNP1OHGDa9by5q4fkmZJmI=",
   "Source": "EventEaseApp",
   "BasePath": "/",
   "Mode": "Root",
@@ -41,7 +41,7 @@
       "Identity": "/Users/bolajiyakub/WorkStation/DevTwo/BlazorFramework/TrainingOne/PartTwo/Three/EventEaseApp/bin/Release/net9.0/wwwroot/_framework/dotnet.js",
       "SourceId": "EventEaseApp",
       "SourceType": "Computed",
-      "ContentRoot": "/Users/bolajiyakub/WorkStation/DevTwo/BlazorFramework/TrainingOne/PartTwo/Three/EventEaseApp/docs/wwwroot/",
+      "ContentRoot": "/Users/bolajiyakub/WorkStation/DevTwo/BlazorFramework/TrainingOne/PartTwo/Three/EventEaseApp/publish/wwwroot/",
       "BasePath": "/",
       "RelativePath": "_framework/dotnet#[.{fingerprint}]?.js",
       "AssetKind": "Publish",
@@ -62,7 +62,7 @@
       "Identity": "/Users/bolajiyakub/WorkStation/DevTwo/BlazorFramework/TrainingOne/PartTwo/Three/EventEaseApp/bin/Release/net9.0/wwwroot/_framework/dotnet.runtime.cymp1amu5g.js",
       "SourceId": "EventEaseApp",
       "SourceType": "Computed",
-      "ContentRoot": "/Users/bolajiyakub/WorkStation/DevTwo/BlazorFramework/TrainingOne/PartTwo/Three/EventEaseApp/docs/wwwroot/",
+      "ContentRoot": "/Users/bolajiyakub/WorkStation/DevTwo/BlazorFramework/TrainingOne/PartTwo/Three/EventEaseApp/publish/wwwroot/",
       "BasePath": "/",
       "RelativePath": "_framework/dotnet.runtime.cymp1amu5g.js",
       "AssetKind": "Publish",
@@ -83,7 +83,7 @@
       "Identity": "/Users/bolajiyakub/WorkStation/DevTwo/BlazorFramework/TrainingOne/PartTwo/Three/EventEaseApp/bin/Release/net9.0/wwwroot/_framework/icudt_CJK.tjcz0u77k5.dat",
       "SourceId": "EventEaseApp",
       "SourceType": "Computed",
-      "ContentRoot": "/Users/bolajiyakub/WorkStation/DevTwo/BlazorFramework/TrainingOne/PartTwo/Three/EventEaseApp/docs/wwwroot/",
+      "ContentRoot": "/Users/bolajiyakub/WorkStation/DevTwo/BlazorFramework/TrainingOne/PartTwo/Three/EventEaseApp/publish/wwwroot/",
       "BasePath": "/",
       "RelativePath": "_framework/icudt_CJK.tjcz0u77k5.dat",
       "AssetKind": "Publish",
@@ -104,7 +104,7 @@
       "Identity": "/Users/bolajiyakub/WorkStation/DevTwo/BlazorFramework/TrainingOne/PartTwo/Three/EventEaseApp/bin/Release/net9.0/wwwroot/_framework/icudt_EFIGS.tptq2av103.dat",
       "SourceId": "EventEaseApp",
       "SourceType": "Computed",
-      "ContentRoot": "/Users/bolajiyakub/WorkStation/DevTwo/BlazorFramework/TrainingOne/PartTwo/Three/EventEaseApp/docs/wwwroot/",
+      "ContentRoot": "/Users/bolajiyakub/WorkStation/DevTwo/BlazorFramework/TrainingOne/PartTwo/Three/EventEaseApp/publish/wwwroot/",
       "BasePath": "/",
       "RelativePath": "_framework/icudt_EFIGS.tptq2av103.dat",
       "AssetKind": "Publish",
@@ -125,7 +125,7 @@
       "Identity": "/Users/bolajiyakub/WorkStation/DevTwo/BlazorFramework/TrainingOne/PartTwo/Three/EventEaseApp/bin/Release/net9.0/wwwroot/_framework/icudt_no_CJK.lfu7j35m59.dat",
       "SourceId": "EventEaseApp",
       "SourceType": "Computed",
-      "ContentRoot": "/Users/bolajiyakub/WorkStation/DevTwo/BlazorFramework/TrainingOne/PartTwo/Three/EventEaseApp/docs/wwwroot/",
+      "ContentRoot": "/Users/bolajiyakub/WorkStation/DevTwo/BlazorFramework/TrainingOne/PartTwo/Three/EventEaseApp/publish/wwwroot/",
       "BasePath": "/",
       "RelativePath": "_framework/icudt_no_CJK.lfu7j35m59.dat",
       "AssetKind": "Publish",
@@ -146,7 +146,7 @@
       "Identity": "/Users/bolajiyakub/WorkStation/DevTwo/BlazorFramework/TrainingOne/PartTwo/Three/EventEaseApp/obj/Release/net9.0/blazor.publish.boot.json",
       "SourceId": "EventEaseApp",
       "SourceType": "Computed",
-      "ContentRoot": "/Users/bolajiyakub/WorkStation/DevTwo/BlazorFramework/TrainingOne/PartTwo/Three/EventEaseApp/docs/wwwroot/",
+      "ContentRoot": "/Users/bolajiyakub/WorkStation/DevTwo/BlazorFramework/TrainingOne/PartTwo/Three/EventEaseApp/publish/wwwroot/",
       "BasePath": "/",
       "RelativePath": "_framework/blazor.boot.json",
       "AssetKind": "Publish",
@@ -157,8 +157,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "WasmResource",
       "AssetTraitValue": "manifest",
-      "Fingerprint": "6t1bhul42d",
-      "Integrity": "6hYGJpm4QClBZL21gYurZr/X9S+h/l2NVIUj7PSxecY=",
+      "Fingerprint": "7vrqh1p9vf",
+      "Integrity": "bctaoWwjG2Kc7Y0B2XoejGE6D8XlNNtpmheK8fJb/g8=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "obj/Release/net9.0/blazor.publish.boot.json"
@@ -482,7 +482,7 @@
       "Identity": "/Users/bolajiyakub/WorkStation/DevTwo/BlazorFramework/TrainingOne/PartTwo/Three/EventEaseApp/obj/Release/net9.0/compressed/egpvzhggzj-cymp1amu5g.gz",
       "SourceId": "EventEaseApp",
       "SourceType": "Computed",
-      "ContentRoot": "/Users/bolajiyakub/WorkStation/DevTwo/BlazorFramework/TrainingOne/PartTwo/Three/EventEaseApp/docs/wwwroot/",
+      "ContentRoot": "/Users/bolajiyakub/WorkStation/DevTwo/BlazorFramework/TrainingOne/PartTwo/Three/EventEaseApp/publish/wwwroot/",
       "BasePath": "/",
       "RelativePath": "_framework/dotnet.runtime#[.{fingerprint=cymp1amu5g}]!.js.gz",
       "AssetKind": "Publish",
@@ -755,7 +755,7 @@
       "Identity": "/Users/bolajiyakub/WorkStation/DevTwo/BlazorFramework/TrainingOne/PartTwo/Three/EventEaseApp/obj/Release/net9.0/compressed/o8yol8yboc-ffzrnftong.gz",
       "SourceId": "EventEaseApp",
       "SourceType": "Computed",
-      "ContentRoot": "/Users/bolajiyakub/WorkStation/DevTwo/BlazorFramework/TrainingOne/PartTwo/Three/EventEaseApp/docs/wwwroot/",
+      "ContentRoot": "/Users/bolajiyakub/WorkStation/DevTwo/BlazorFramework/TrainingOne/PartTwo/Three/EventEaseApp/publish/wwwroot/",
       "BasePath": "/",
       "RelativePath": "_framework/dotnet#[.{fingerprint=ffzrnftong}]?.js.gz",
       "AssetKind": "Publish",
@@ -1529,7 +1529,7 @@
       "OriginalItemSpec": "/Users/bolajiyakub/WorkStation/DevTwo/BlazorFramework/TrainingOne/PartTwo/Three/EventEaseApp/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css"
     },
     {
-      "Identity": "/Users/bolajiyakub/WorkStation/DevTwo/BlazorFramework/TrainingOne/PartTwo/Three/EventEaseApp/obj/Release/net9.0/compressed/publish/99015p2t7r-6t1bhul42d.br",
+      "Identity": "/Users/bolajiyakub/WorkStation/DevTwo/BlazorFramework/TrainingOne/PartTwo/Three/EventEaseApp/obj/Release/net9.0/compressed/publish/99015p2t7r-7vrqh1p9vf.br",
       "SourceId": "EventEaseApp",
       "SourceType": "Computed",
       "ContentRoot": "/Users/bolajiyakub/WorkStation/DevTwo/BlazorFramework/TrainingOne/PartTwo/Three/EventEaseApp/obj/Release/net9.0/compressed/publish/",
@@ -1543,14 +1543,14 @@
       "RelatedAsset": "/Users/bolajiyakub/WorkStation/DevTwo/BlazorFramework/TrainingOne/PartTwo/Three/EventEaseApp/obj/Release/net9.0/blazor.publish.boot.json",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "br",
-      "Fingerprint": "xgzom1y93m",
-      "Integrity": "b1xUWJDyfjjz66U+YngXexTscBKg4NszHFTfbkt4918=",
+      "Fingerprint": "bk93paipos",
+      "Integrity": "1StXEiwqF4fwLd7+YbyEd/nJDhpdRRx7zAOLd65m6+o=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "/Users/bolajiyakub/WorkStation/DevTwo/BlazorFramework/TrainingOne/PartTwo/Three/EventEaseApp/obj/Release/net9.0/blazor.publish.boot.json"
     },
     {
-      "Identity": "/Users/bolajiyakub/WorkStation/DevTwo/BlazorFramework/TrainingOne/PartTwo/Three/EventEaseApp/obj/Release/net9.0/compressed/publish/99015p2t7r-6t1bhul42d.gz",
+      "Identity": "/Users/bolajiyakub/WorkStation/DevTwo/BlazorFramework/TrainingOne/PartTwo/Three/EventEaseApp/obj/Release/net9.0/compressed/publish/99015p2t7r-7vrqh1p9vf.gz",
       "SourceId": "EventEaseApp",
       "SourceType": "Computed",
       "ContentRoot": "/Users/bolajiyakub/WorkStation/DevTwo/BlazorFramework/TrainingOne/PartTwo/Three/EventEaseApp/obj/Release/net9.0/compressed/publish/",
@@ -1564,8 +1564,8 @@
       "RelatedAsset": "/Users/bolajiyakub/WorkStation/DevTwo/BlazorFramework/TrainingOne/PartTwo/Three/EventEaseApp/obj/Release/net9.0/blazor.publish.boot.json",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "gi077tmcz4",
-      "Integrity": "qKa5J7uPayngRFebZ0tOi+9MGE2iC7unfASNx2aQLsk=",
+      "Fingerprint": "mhf30pyid7",
+      "Integrity": "1upJSj3e3STszjbOk0TWrxmcAv/VZo1USE0DsOrca5Y=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "/Users/bolajiyakub/WorkStation/DevTwo/BlazorFramework/TrainingOne/PartTwo/Three/EventEaseApp/obj/Release/net9.0/blazor.publish.boot.json"
@@ -3167,12 +3167,12 @@
       "OriginalItemSpec": "/Users/bolajiyakub/WorkStation/DevTwo/BlazorFramework/TrainingOne/PartTwo/Three/EventEaseApp/wwwroot/lib/bootstrap/dist/css/bootstrap.css"
     },
     {
-      "Identity": "/Users/bolajiyakub/WorkStation/DevTwo/BlazorFramework/TrainingOne/PartTwo/Three/EventEaseApp/obj/Release/net9.0/compressed/publish/rb5ccmieio-qxt4htykex.br",
+      "Identity": "/Users/bolajiyakub/WorkStation/DevTwo/BlazorFramework/TrainingOne/PartTwo/Three/EventEaseApp/obj/Release/net9.0/compressed/publish/rb5ccmieio-d3lpkr7ip7.br",
       "SourceId": "EventEaseApp",
       "SourceType": "Computed",
       "ContentRoot": "/Users/bolajiyakub/WorkStation/DevTwo/BlazorFramework/TrainingOne/PartTwo/Three/EventEaseApp/obj/Release/net9.0/compressed/publish/",
       "BasePath": "/",
-      "RelativePath": "_framework/EventEaseApp#[.{fingerprint=qxt4htykex}]!.wasm.br",
+      "RelativePath": "_framework/EventEaseApp#[.{fingerprint=d3lpkr7ip7}]!.wasm.br",
       "AssetKind": "Publish",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -3181,19 +3181,19 @@
       "RelatedAsset": "/Users/bolajiyakub/WorkStation/DevTwo/BlazorFramework/TrainingOne/PartTwo/Three/EventEaseApp/obj/Release/net9.0/webcil/publish/EventEaseApp.wasm",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "br",
-      "Fingerprint": "om8mp9bycf",
-      "Integrity": "0H2NSSHuEhqW+ZrRdpQXozTTFTklo319eKQ94ZLOCH4=",
+      "Fingerprint": "7yuxcb071v",
+      "Integrity": "EY0eWakeKMXTGICet+M6xhU29Ox9xc38mraBWMtW/DU=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "/Users/bolajiyakub/WorkStation/DevTwo/BlazorFramework/TrainingOne/PartTwo/Three/EventEaseApp/obj/Release/net9.0/webcil/publish/EventEaseApp.wasm"
     },
     {
-      "Identity": "/Users/bolajiyakub/WorkStation/DevTwo/BlazorFramework/TrainingOne/PartTwo/Three/EventEaseApp/obj/Release/net9.0/compressed/publish/rb5ccmieio-qxt4htykex.gz",
+      "Identity": "/Users/bolajiyakub/WorkStation/DevTwo/BlazorFramework/TrainingOne/PartTwo/Three/EventEaseApp/obj/Release/net9.0/compressed/publish/rb5ccmieio-d3lpkr7ip7.gz",
       "SourceId": "EventEaseApp",
       "SourceType": "Computed",
       "ContentRoot": "/Users/bolajiyakub/WorkStation/DevTwo/BlazorFramework/TrainingOne/PartTwo/Three/EventEaseApp/obj/Release/net9.0/compressed/publish/",
       "BasePath": "/",
-      "RelativePath": "_framework/EventEaseApp#[.{fingerprint=qxt4htykex}]!.wasm.gz",
+      "RelativePath": "_framework/EventEaseApp#[.{fingerprint=d3lpkr7ip7}]!.wasm.gz",
       "AssetKind": "Publish",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -3202,8 +3202,8 @@
       "RelatedAsset": "/Users/bolajiyakub/WorkStation/DevTwo/BlazorFramework/TrainingOne/PartTwo/Three/EventEaseApp/obj/Release/net9.0/webcil/publish/EventEaseApp.wasm",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "q8lwtspj26",
-      "Integrity": "dk/2IU69Di72nrCVQ0Z9m0UYJ27Ntx5c5buEDInkzMM=",
+      "Fingerprint": "9ogxmr72yj",
+      "Integrity": "qeSeyCHnmwlQJ6S87xV4c4ws0OAjopvNEYSOX4AnLfo=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "/Users/bolajiyakub/WorkStation/DevTwo/BlazorFramework/TrainingOne/PartTwo/Three/EventEaseApp/obj/Release/net9.0/webcil/publish/EventEaseApp.wasm"
@@ -4451,7 +4451,7 @@
       "Identity": "/Users/bolajiyakub/WorkStation/DevTwo/BlazorFramework/TrainingOne/PartTwo/Three/EventEaseApp/obj/Release/net9.0/wasm/for-publish/dotnet.native.js",
       "SourceId": "EventEaseApp",
       "SourceType": "Computed",
-      "ContentRoot": "/Users/bolajiyakub/WorkStation/DevTwo/BlazorFramework/TrainingOne/PartTwo/Three/EventEaseApp/docs/wwwroot/",
+      "ContentRoot": "/Users/bolajiyakub/WorkStation/DevTwo/BlazorFramework/TrainingOne/PartTwo/Three/EventEaseApp/publish/wwwroot/",
       "BasePath": "/",
       "RelativePath": "_framework/dotnet.native#[.{fingerprint}]!.js",
       "AssetKind": "Publish",
@@ -4472,7 +4472,7 @@
       "Identity": "/Users/bolajiyakub/WorkStation/DevTwo/BlazorFramework/TrainingOne/PartTwo/Three/EventEaseApp/obj/Release/net9.0/wasm/for-publish/dotnet.native.wasm",
       "SourceId": "EventEaseApp",
       "SourceType": "Computed",
-      "ContentRoot": "/Users/bolajiyakub/WorkStation/DevTwo/BlazorFramework/TrainingOne/PartTwo/Three/EventEaseApp/docs/wwwroot/",
+      "ContentRoot": "/Users/bolajiyakub/WorkStation/DevTwo/BlazorFramework/TrainingOne/PartTwo/Three/EventEaseApp/publish/wwwroot/",
       "BasePath": "/",
       "RelativePath": "_framework/dotnet.native#[.{fingerprint}]!.wasm",
       "AssetKind": "Publish",
@@ -4493,7 +4493,7 @@
       "Identity": "/Users/bolajiyakub/WorkStation/DevTwo/BlazorFramework/TrainingOne/PartTwo/Three/EventEaseApp/obj/Release/net9.0/webcil/publish/EventEaseApp.wasm",
       "SourceId": "EventEaseApp",
       "SourceType": "Computed",
-      "ContentRoot": "/Users/bolajiyakub/WorkStation/DevTwo/BlazorFramework/TrainingOne/PartTwo/Three/EventEaseApp/docs/wwwroot/",
+      "ContentRoot": "/Users/bolajiyakub/WorkStation/DevTwo/BlazorFramework/TrainingOne/PartTwo/Three/EventEaseApp/publish/wwwroot/",
       "BasePath": "/",
       "RelativePath": "_framework/EventEaseApp#[.{fingerprint}]!.wasm",
       "AssetKind": "Publish",
@@ -4504,8 +4504,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "WasmResource",
       "AssetTraitValue": "runtime",
-      "Fingerprint": "qxt4htykex",
-      "Integrity": "cip1AnfLe0a4K3ygn1hrPzzrkBIVeaiE8CmljTV3wQk=",
+      "Fingerprint": "d3lpkr7ip7",
+      "Integrity": "CQdBtLHz2HZXJY6ktRYq6qAilB8SAd/7pQ5d5bC4+as=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "/Users/bolajiyakub/WorkStation/DevTwo/BlazorFramework/TrainingOne/PartTwo/Three/EventEaseApp/obj/Release/net9.0/webcil/publish/EventEaseApp.wasm"
@@ -4514,7 +4514,7 @@
       "Identity": "/Users/bolajiyakub/WorkStation/DevTwo/BlazorFramework/TrainingOne/PartTwo/Three/EventEaseApp/obj/Release/net9.0/webcil/publish/Microsoft.AspNetCore.Components.Forms.wasm",
       "SourceId": "EventEaseApp",
       "SourceType": "Computed",
-      "ContentRoot": "/Users/bolajiyakub/WorkStation/DevTwo/BlazorFramework/TrainingOne/PartTwo/Three/EventEaseApp/docs/wwwroot/",
+      "ContentRoot": "/Users/bolajiyakub/WorkStation/DevTwo/BlazorFramework/TrainingOne/PartTwo/Three/EventEaseApp/publish/wwwroot/",
       "BasePath": "/",
       "RelativePath": "_framework/Microsoft.AspNetCore.Components.Forms#[.{fingerprint}]!.wasm",
       "AssetKind": "Publish",
@@ -4535,7 +4535,7 @@
       "Identity": "/Users/bolajiyakub/WorkStation/DevTwo/BlazorFramework/TrainingOne/PartTwo/Three/EventEaseApp/obj/Release/net9.0/webcil/publish/Microsoft.AspNetCore.Components.wasm",
       "SourceId": "EventEaseApp",
       "SourceType": "Computed",
-      "ContentRoot": "/Users/bolajiyakub/WorkStation/DevTwo/BlazorFramework/TrainingOne/PartTwo/Three/EventEaseApp/docs/wwwroot/",
+      "ContentRoot": "/Users/bolajiyakub/WorkStation/DevTwo/BlazorFramework/TrainingOne/PartTwo/Three/EventEaseApp/publish/wwwroot/",
       "BasePath": "/",
       "RelativePath": "_framework/Microsoft.AspNetCore.Components#[.{fingerprint}]!.wasm",
       "AssetKind": "Publish",
@@ -4556,7 +4556,7 @@
       "Identity": "/Users/bolajiyakub/WorkStation/DevTwo/BlazorFramework/TrainingOne/PartTwo/Three/EventEaseApp/obj/Release/net9.0/webcil/publish/Microsoft.AspNetCore.Components.Web.wasm",
       "SourceId": "EventEaseApp",
       "SourceType": "Computed",
-      "ContentRoot": "/Users/bolajiyakub/WorkStation/DevTwo/BlazorFramework/TrainingOne/PartTwo/Three/EventEaseApp/docs/wwwroot/",
+      "ContentRoot": "/Users/bolajiyakub/WorkStation/DevTwo/BlazorFramework/TrainingOne/PartTwo/Three/EventEaseApp/publish/wwwroot/",
       "BasePath": "/",
       "RelativePath": "_framework/Microsoft.AspNetCore.Components.Web#[.{fingerprint}]!.wasm",
       "AssetKind": "Publish",
@@ -4577,7 +4577,7 @@
       "Identity": "/Users/bolajiyakub/WorkStation/DevTwo/BlazorFramework/TrainingOne/PartTwo/Three/EventEaseApp/obj/Release/net9.0/webcil/publish/Microsoft.AspNetCore.Components.WebAssembly.wasm",
       "SourceId": "EventEaseApp",
       "SourceType": "Computed",
-      "ContentRoot": "/Users/bolajiyakub/WorkStation/DevTwo/BlazorFramework/TrainingOne/PartTwo/Three/EventEaseApp/docs/wwwroot/",
+      "ContentRoot": "/Users/bolajiyakub/WorkStation/DevTwo/BlazorFramework/TrainingOne/PartTwo/Three/EventEaseApp/publish/wwwroot/",
       "BasePath": "/",
       "RelativePath": "_framework/Microsoft.AspNetCore.Components.WebAssembly#[.{fingerprint}]!.wasm",
       "AssetKind": "Publish",
@@ -4598,7 +4598,7 @@
       "Identity": "/Users/bolajiyakub/WorkStation/DevTwo/BlazorFramework/TrainingOne/PartTwo/Three/EventEaseApp/obj/Release/net9.0/webcil/publish/Microsoft.Extensions.Configuration.Abstractions.wasm",
       "SourceId": "EventEaseApp",
       "SourceType": "Computed",
-      "ContentRoot": "/Users/bolajiyakub/WorkStation/DevTwo/BlazorFramework/TrainingOne/PartTwo/Three/EventEaseApp/docs/wwwroot/",
+      "ContentRoot": "/Users/bolajiyakub/WorkStation/DevTwo/BlazorFramework/TrainingOne/PartTwo/Three/EventEaseApp/publish/wwwroot/",
       "BasePath": "/",
       "RelativePath": "_framework/Microsoft.Extensions.Configuration.Abstractions#[.{fingerprint}]!.wasm",
       "AssetKind": "Publish",
@@ -4619,7 +4619,7 @@
       "Identity": "/Users/bolajiyakub/WorkStation/DevTwo/BlazorFramework/TrainingOne/PartTwo/Three/EventEaseApp/obj/Release/net9.0/webcil/publish/Microsoft.Extensions.Configuration.Json.wasm",
       "SourceId": "EventEaseApp",
       "SourceType": "Computed",
-      "ContentRoot": "/Users/bolajiyakub/WorkStation/DevTwo/BlazorFramework/TrainingOne/PartTwo/Three/EventEaseApp/docs/wwwroot/",
+      "ContentRoot": "/Users/bolajiyakub/WorkStation/DevTwo/BlazorFramework/TrainingOne/PartTwo/Three/EventEaseApp/publish/wwwroot/",
       "BasePath": "/",
       "RelativePath": "_framework/Microsoft.Extensions.Configuration.Json#[.{fingerprint}]!.wasm",
       "AssetKind": "Publish",
@@ -4640,7 +4640,7 @@
       "Identity": "/Users/bolajiyakub/WorkStation/DevTwo/BlazorFramework/TrainingOne/PartTwo/Three/EventEaseApp/obj/Release/net9.0/webcil/publish/Microsoft.Extensions.Configuration.wasm",
       "SourceId": "EventEaseApp",
       "SourceType": "Computed",
-      "ContentRoot": "/Users/bolajiyakub/WorkStation/DevTwo/BlazorFramework/TrainingOne/PartTwo/Three/EventEaseApp/docs/wwwroot/",
+      "ContentRoot": "/Users/bolajiyakub/WorkStation/DevTwo/BlazorFramework/TrainingOne/PartTwo/Three/EventEaseApp/publish/wwwroot/",
       "BasePath": "/",
       "RelativePath": "_framework/Microsoft.Extensions.Configuration#[.{fingerprint}]!.wasm",
       "AssetKind": "Publish",
@@ -4661,7 +4661,7 @@
       "Identity": "/Users/bolajiyakub/WorkStation/DevTwo/BlazorFramework/TrainingOne/PartTwo/Three/EventEaseApp/obj/Release/net9.0/webcil/publish/Microsoft.Extensions.DependencyInjection.Abstractions.wasm",
       "SourceId": "EventEaseApp",
       "SourceType": "Computed",
-      "ContentRoot": "/Users/bolajiyakub/WorkStation/DevTwo/BlazorFramework/TrainingOne/PartTwo/Three/EventEaseApp/docs/wwwroot/",
+      "ContentRoot": "/Users/bolajiyakub/WorkStation/DevTwo/BlazorFramework/TrainingOne/PartTwo/Three/EventEaseApp/publish/wwwroot/",
       "BasePath": "/",
       "RelativePath": "_framework/Microsoft.Extensions.DependencyInjection.Abstractions#[.{fingerprint}]!.wasm",
       "AssetKind": "Publish",
@@ -4682,7 +4682,7 @@
       "Identity": "/Users/bolajiyakub/WorkStation/DevTwo/BlazorFramework/TrainingOne/PartTwo/Three/EventEaseApp/obj/Release/net9.0/webcil/publish/Microsoft.Extensions.DependencyInjection.wasm",
       "SourceId": "EventEaseApp",
       "SourceType": "Computed",
-      "ContentRoot": "/Users/bolajiyakub/WorkStation/DevTwo/BlazorFramework/TrainingOne/PartTwo/Three/EventEaseApp/docs/wwwroot/",
+      "ContentRoot": "/Users/bolajiyakub/WorkStation/DevTwo/BlazorFramework/TrainingOne/PartTwo/Three/EventEaseApp/publish/wwwroot/",
       "BasePath": "/",
       "RelativePath": "_framework/Microsoft.Extensions.DependencyInjection#[.{fingerprint}]!.wasm",
       "AssetKind": "Publish",
@@ -4703,7 +4703,7 @@
       "Identity": "/Users/bolajiyakub/WorkStation/DevTwo/BlazorFramework/TrainingOne/PartTwo/Three/EventEaseApp/obj/Release/net9.0/webcil/publish/Microsoft.Extensions.Logging.Abstractions.wasm",
       "SourceId": "EventEaseApp",
       "SourceType": "Computed",
-      "ContentRoot": "/Users/bolajiyakub/WorkStation/DevTwo/BlazorFramework/TrainingOne/PartTwo/Three/EventEaseApp/docs/wwwroot/",
+      "ContentRoot": "/Users/bolajiyakub/WorkStation/DevTwo/BlazorFramework/TrainingOne/PartTwo/Three/EventEaseApp/publish/wwwroot/",
       "BasePath": "/",
       "RelativePath": "_framework/Microsoft.Extensions.Logging.Abstractions#[.{fingerprint}]!.wasm",
       "AssetKind": "Publish",
@@ -4724,7 +4724,7 @@
       "Identity": "/Users/bolajiyakub/WorkStation/DevTwo/BlazorFramework/TrainingOne/PartTwo/Three/EventEaseApp/obj/Release/net9.0/webcil/publish/Microsoft.Extensions.Logging.wasm",
       "SourceId": "EventEaseApp",
       "SourceType": "Computed",
-      "ContentRoot": "/Users/bolajiyakub/WorkStation/DevTwo/BlazorFramework/TrainingOne/PartTwo/Three/EventEaseApp/docs/wwwroot/",
+      "ContentRoot": "/Users/bolajiyakub/WorkStation/DevTwo/BlazorFramework/TrainingOne/PartTwo/Three/EventEaseApp/publish/wwwroot/",
       "BasePath": "/",
       "RelativePath": "_framework/Microsoft.Extensions.Logging#[.{fingerprint}]!.wasm",
       "AssetKind": "Publish",
@@ -4745,7 +4745,7 @@
       "Identity": "/Users/bolajiyakub/WorkStation/DevTwo/BlazorFramework/TrainingOne/PartTwo/Three/EventEaseApp/obj/Release/net9.0/webcil/publish/Microsoft.Extensions.Options.wasm",
       "SourceId": "EventEaseApp",
       "SourceType": "Computed",
-      "ContentRoot": "/Users/bolajiyakub/WorkStation/DevTwo/BlazorFramework/TrainingOne/PartTwo/Three/EventEaseApp/docs/wwwroot/",
+      "ContentRoot": "/Users/bolajiyakub/WorkStation/DevTwo/BlazorFramework/TrainingOne/PartTwo/Three/EventEaseApp/publish/wwwroot/",
       "BasePath": "/",
       "RelativePath": "_framework/Microsoft.Extensions.Options#[.{fingerprint}]!.wasm",
       "AssetKind": "Publish",
@@ -4766,7 +4766,7 @@
       "Identity": "/Users/bolajiyakub/WorkStation/DevTwo/BlazorFramework/TrainingOne/PartTwo/Three/EventEaseApp/obj/Release/net9.0/webcil/publish/Microsoft.Extensions.Primitives.wasm",
       "SourceId": "EventEaseApp",
       "SourceType": "Computed",
-      "ContentRoot": "/Users/bolajiyakub/WorkStation/DevTwo/BlazorFramework/TrainingOne/PartTwo/Three/EventEaseApp/docs/wwwroot/",
+      "ContentRoot": "/Users/bolajiyakub/WorkStation/DevTwo/BlazorFramework/TrainingOne/PartTwo/Three/EventEaseApp/publish/wwwroot/",
       "BasePath": "/",
       "RelativePath": "_framework/Microsoft.Extensions.Primitives#[.{fingerprint}]!.wasm",
       "AssetKind": "Publish",
@@ -4787,7 +4787,7 @@
       "Identity": "/Users/bolajiyakub/WorkStation/DevTwo/BlazorFramework/TrainingOne/PartTwo/Three/EventEaseApp/obj/Release/net9.0/webcil/publish/Microsoft.JSInterop.wasm",
       "SourceId": "EventEaseApp",
       "SourceType": "Computed",
-      "ContentRoot": "/Users/bolajiyakub/WorkStation/DevTwo/BlazorFramework/TrainingOne/PartTwo/Three/EventEaseApp/docs/wwwroot/",
+      "ContentRoot": "/Users/bolajiyakub/WorkStation/DevTwo/BlazorFramework/TrainingOne/PartTwo/Three/EventEaseApp/publish/wwwroot/",
       "BasePath": "/",
       "RelativePath": "_framework/Microsoft.JSInterop#[.{fingerprint}]!.wasm",
       "AssetKind": "Publish",
@@ -4808,7 +4808,7 @@
       "Identity": "/Users/bolajiyakub/WorkStation/DevTwo/BlazorFramework/TrainingOne/PartTwo/Three/EventEaseApp/obj/Release/net9.0/webcil/publish/Microsoft.JSInterop.WebAssembly.wasm",
       "SourceId": "EventEaseApp",
       "SourceType": "Computed",
-      "ContentRoot": "/Users/bolajiyakub/WorkStation/DevTwo/BlazorFramework/TrainingOne/PartTwo/Three/EventEaseApp/docs/wwwroot/",
+      "ContentRoot": "/Users/bolajiyakub/WorkStation/DevTwo/BlazorFramework/TrainingOne/PartTwo/Three/EventEaseApp/publish/wwwroot/",
       "BasePath": "/",
       "RelativePath": "_framework/Microsoft.JSInterop.WebAssembly#[.{fingerprint}]!.wasm",
       "AssetKind": "Publish",
@@ -4829,7 +4829,7 @@
       "Identity": "/Users/bolajiyakub/WorkStation/DevTwo/BlazorFramework/TrainingOne/PartTwo/Three/EventEaseApp/obj/Release/net9.0/webcil/publish/System.Collections.Concurrent.wasm",
       "SourceId": "EventEaseApp",
       "SourceType": "Computed",
-      "ContentRoot": "/Users/bolajiyakub/WorkStation/DevTwo/BlazorFramework/TrainingOne/PartTwo/Three/EventEaseApp/docs/wwwroot/",
+      "ContentRoot": "/Users/bolajiyakub/WorkStation/DevTwo/BlazorFramework/TrainingOne/PartTwo/Three/EventEaseApp/publish/wwwroot/",
       "BasePath": "/",
       "RelativePath": "_framework/System.Collections.Concurrent#[.{fingerprint}]!.wasm",
       "AssetKind": "Publish",
@@ -4850,7 +4850,7 @@
       "Identity": "/Users/bolajiyakub/WorkStation/DevTwo/BlazorFramework/TrainingOne/PartTwo/Three/EventEaseApp/obj/Release/net9.0/webcil/publish/System.Collections.Immutable.wasm",
       "SourceId": "EventEaseApp",
       "SourceType": "Computed",
-      "ContentRoot": "/Users/bolajiyakub/WorkStation/DevTwo/BlazorFramework/TrainingOne/PartTwo/Three/EventEaseApp/docs/wwwroot/",
+      "ContentRoot": "/Users/bolajiyakub/WorkStation/DevTwo/BlazorFramework/TrainingOne/PartTwo/Three/EventEaseApp/publish/wwwroot/",
       "BasePath": "/",
       "RelativePath": "_framework/System.Collections.Immutable#[.{fingerprint}]!.wasm",
       "AssetKind": "Publish",
@@ -4871,7 +4871,7 @@
       "Identity": "/Users/bolajiyakub/WorkStation/DevTwo/BlazorFramework/TrainingOne/PartTwo/Three/EventEaseApp/obj/Release/net9.0/webcil/publish/System.Collections.NonGeneric.wasm",
       "SourceId": "EventEaseApp",
       "SourceType": "Computed",
-      "ContentRoot": "/Users/bolajiyakub/WorkStation/DevTwo/BlazorFramework/TrainingOne/PartTwo/Three/EventEaseApp/docs/wwwroot/",
+      "ContentRoot": "/Users/bolajiyakub/WorkStation/DevTwo/BlazorFramework/TrainingOne/PartTwo/Three/EventEaseApp/publish/wwwroot/",
       "BasePath": "/",
       "RelativePath": "_framework/System.Collections.NonGeneric#[.{fingerprint}]!.wasm",
       "AssetKind": "Publish",
@@ -4892,7 +4892,7 @@
       "Identity": "/Users/bolajiyakub/WorkStation/DevTwo/BlazorFramework/TrainingOne/PartTwo/Three/EventEaseApp/obj/Release/net9.0/webcil/publish/System.Collections.Specialized.wasm",
       "SourceId": "EventEaseApp",
       "SourceType": "Computed",
-      "ContentRoot": "/Users/bolajiyakub/WorkStation/DevTwo/BlazorFramework/TrainingOne/PartTwo/Three/EventEaseApp/docs/wwwroot/",
+      "ContentRoot": "/Users/bolajiyakub/WorkStation/DevTwo/BlazorFramework/TrainingOne/PartTwo/Three/EventEaseApp/publish/wwwroot/",
       "BasePath": "/",
       "RelativePath": "_framework/System.Collections.Specialized#[.{fingerprint}]!.wasm",
       "AssetKind": "Publish",
@@ -4913,7 +4913,7 @@
       "Identity": "/Users/bolajiyakub/WorkStation/DevTwo/BlazorFramework/TrainingOne/PartTwo/Three/EventEaseApp/obj/Release/net9.0/webcil/publish/System.Collections.wasm",
       "SourceId": "EventEaseApp",
       "SourceType": "Computed",
-      "ContentRoot": "/Users/bolajiyakub/WorkStation/DevTwo/BlazorFramework/TrainingOne/PartTwo/Three/EventEaseApp/docs/wwwroot/",
+      "ContentRoot": "/Users/bolajiyakub/WorkStation/DevTwo/BlazorFramework/TrainingOne/PartTwo/Three/EventEaseApp/publish/wwwroot/",
       "BasePath": "/",
       "RelativePath": "_framework/System.Collections#[.{fingerprint}]!.wasm",
       "AssetKind": "Publish",
@@ -4934,7 +4934,7 @@
       "Identity": "/Users/bolajiyakub/WorkStation/DevTwo/BlazorFramework/TrainingOne/PartTwo/Three/EventEaseApp/obj/Release/net9.0/webcil/publish/System.ComponentModel.Annotations.wasm",
       "SourceId": "EventEaseApp",
       "SourceType": "Computed",
-      "ContentRoot": "/Users/bolajiyakub/WorkStation/DevTwo/BlazorFramework/TrainingOne/PartTwo/Three/EventEaseApp/docs/wwwroot/",
+      "ContentRoot": "/Users/bolajiyakub/WorkStation/DevTwo/BlazorFramework/TrainingOne/PartTwo/Three/EventEaseApp/publish/wwwroot/",
       "BasePath": "/",
       "RelativePath": "_framework/System.ComponentModel.Annotations#[.{fingerprint}]!.wasm",
       "AssetKind": "Publish",
@@ -4955,7 +4955,7 @@
       "Identity": "/Users/bolajiyakub/WorkStation/DevTwo/BlazorFramework/TrainingOne/PartTwo/Three/EventEaseApp/obj/Release/net9.0/webcil/publish/System.ComponentModel.Primitives.wasm",
       "SourceId": "EventEaseApp",
       "SourceType": "Computed",
-      "ContentRoot": "/Users/bolajiyakub/WorkStation/DevTwo/BlazorFramework/TrainingOne/PartTwo/Three/EventEaseApp/docs/wwwroot/",
+      "ContentRoot": "/Users/bolajiyakub/WorkStation/DevTwo/BlazorFramework/TrainingOne/PartTwo/Three/EventEaseApp/publish/wwwroot/",
       "BasePath": "/",
       "RelativePath": "_framework/System.ComponentModel.Primitives#[.{fingerprint}]!.wasm",
       "AssetKind": "Publish",
@@ -4976,7 +4976,7 @@
       "Identity": "/Users/bolajiyakub/WorkStation/DevTwo/BlazorFramework/TrainingOne/PartTwo/Three/EventEaseApp/obj/Release/net9.0/webcil/publish/System.ComponentModel.TypeConverter.wasm",
       "SourceId": "EventEaseApp",
       "SourceType": "Computed",
-      "ContentRoot": "/Users/bolajiyakub/WorkStation/DevTwo/BlazorFramework/TrainingOne/PartTwo/Three/EventEaseApp/docs/wwwroot/",
+      "ContentRoot": "/Users/bolajiyakub/WorkStation/DevTwo/BlazorFramework/TrainingOne/PartTwo/Three/EventEaseApp/publish/wwwroot/",
       "BasePath": "/",
       "RelativePath": "_framework/System.ComponentModel.TypeConverter#[.{fingerprint}]!.wasm",
       "AssetKind": "Publish",
@@ -4997,7 +4997,7 @@
       "Identity": "/Users/bolajiyakub/WorkStation/DevTwo/BlazorFramework/TrainingOne/PartTwo/Three/EventEaseApp/obj/Release/net9.0/webcil/publish/System.ComponentModel.wasm",
       "SourceId": "EventEaseApp",
       "SourceType": "Computed",
-      "ContentRoot": "/Users/bolajiyakub/WorkStation/DevTwo/BlazorFramework/TrainingOne/PartTwo/Three/EventEaseApp/docs/wwwroot/",
+      "ContentRoot": "/Users/bolajiyakub/WorkStation/DevTwo/BlazorFramework/TrainingOne/PartTwo/Three/EventEaseApp/publish/wwwroot/",
       "BasePath": "/",
       "RelativePath": "_framework/System.ComponentModel#[.{fingerprint}]!.wasm",
       "AssetKind": "Publish",
@@ -5018,7 +5018,7 @@
       "Identity": "/Users/bolajiyakub/WorkStation/DevTwo/BlazorFramework/TrainingOne/PartTwo/Three/EventEaseApp/obj/Release/net9.0/webcil/publish/System.Console.wasm",
       "SourceId": "EventEaseApp",
       "SourceType": "Computed",
-      "ContentRoot": "/Users/bolajiyakub/WorkStation/DevTwo/BlazorFramework/TrainingOne/PartTwo/Three/EventEaseApp/docs/wwwroot/",
+      "ContentRoot": "/Users/bolajiyakub/WorkStation/DevTwo/BlazorFramework/TrainingOne/PartTwo/Three/EventEaseApp/publish/wwwroot/",
       "BasePath": "/",
       "RelativePath": "_framework/System.Console#[.{fingerprint}]!.wasm",
       "AssetKind": "Publish",
@@ -5039,7 +5039,7 @@
       "Identity": "/Users/bolajiyakub/WorkStation/DevTwo/BlazorFramework/TrainingOne/PartTwo/Three/EventEaseApp/obj/Release/net9.0/webcil/publish/System.IO.Pipelines.wasm",
       "SourceId": "EventEaseApp",
       "SourceType": "Computed",
-      "ContentRoot": "/Users/bolajiyakub/WorkStation/DevTwo/BlazorFramework/TrainingOne/PartTwo/Three/EventEaseApp/docs/wwwroot/",
+      "ContentRoot": "/Users/bolajiyakub/WorkStation/DevTwo/BlazorFramework/TrainingOne/PartTwo/Three/EventEaseApp/publish/wwwroot/",
       "BasePath": "/",
       "RelativePath": "_framework/System.IO.Pipelines#[.{fingerprint}]!.wasm",
       "AssetKind": "Publish",
@@ -5060,7 +5060,7 @@
       "Identity": "/Users/bolajiyakub/WorkStation/DevTwo/BlazorFramework/TrainingOne/PartTwo/Three/EventEaseApp/obj/Release/net9.0/webcil/publish/System.Linq.Expressions.wasm",
       "SourceId": "EventEaseApp",
       "SourceType": "Computed",
-      "ContentRoot": "/Users/bolajiyakub/WorkStation/DevTwo/BlazorFramework/TrainingOne/PartTwo/Three/EventEaseApp/docs/wwwroot/",
+      "ContentRoot": "/Users/bolajiyakub/WorkStation/DevTwo/BlazorFramework/TrainingOne/PartTwo/Three/EventEaseApp/publish/wwwroot/",
       "BasePath": "/",
       "RelativePath": "_framework/System.Linq.Expressions#[.{fingerprint}]!.wasm",
       "AssetKind": "Publish",
@@ -5081,7 +5081,7 @@
       "Identity": "/Users/bolajiyakub/WorkStation/DevTwo/BlazorFramework/TrainingOne/PartTwo/Three/EventEaseApp/obj/Release/net9.0/webcil/publish/System.Linq.wasm",
       "SourceId": "EventEaseApp",
       "SourceType": "Computed",
-      "ContentRoot": "/Users/bolajiyakub/WorkStation/DevTwo/BlazorFramework/TrainingOne/PartTwo/Three/EventEaseApp/docs/wwwroot/",
+      "ContentRoot": "/Users/bolajiyakub/WorkStation/DevTwo/BlazorFramework/TrainingOne/PartTwo/Three/EventEaseApp/publish/wwwroot/",
       "BasePath": "/",
       "RelativePath": "_framework/System.Linq#[.{fingerprint}]!.wasm",
       "AssetKind": "Publish",
@@ -5102,7 +5102,7 @@
       "Identity": "/Users/bolajiyakub/WorkStation/DevTwo/BlazorFramework/TrainingOne/PartTwo/Three/EventEaseApp/obj/Release/net9.0/webcil/publish/System.Memory.wasm",
       "SourceId": "EventEaseApp",
       "SourceType": "Computed",
-      "ContentRoot": "/Users/bolajiyakub/WorkStation/DevTwo/BlazorFramework/TrainingOne/PartTwo/Three/EventEaseApp/docs/wwwroot/",
+      "ContentRoot": "/Users/bolajiyakub/WorkStation/DevTwo/BlazorFramework/TrainingOne/PartTwo/Three/EventEaseApp/publish/wwwroot/",
       "BasePath": "/",
       "RelativePath": "_framework/System.Memory#[.{fingerprint}]!.wasm",
       "AssetKind": "Publish",
@@ -5123,7 +5123,7 @@
       "Identity": "/Users/bolajiyakub/WorkStation/DevTwo/BlazorFramework/TrainingOne/PartTwo/Three/EventEaseApp/obj/Release/net9.0/webcil/publish/System.Net.Http.wasm",
       "SourceId": "EventEaseApp",
       "SourceType": "Computed",
-      "ContentRoot": "/Users/bolajiyakub/WorkStation/DevTwo/BlazorFramework/TrainingOne/PartTwo/Three/EventEaseApp/docs/wwwroot/",
+      "ContentRoot": "/Users/bolajiyakub/WorkStation/DevTwo/BlazorFramework/TrainingOne/PartTwo/Three/EventEaseApp/publish/wwwroot/",
       "BasePath": "/",
       "RelativePath": "_framework/System.Net.Http#[.{fingerprint}]!.wasm",
       "AssetKind": "Publish",
@@ -5144,7 +5144,7 @@
       "Identity": "/Users/bolajiyakub/WorkStation/DevTwo/BlazorFramework/TrainingOne/PartTwo/Three/EventEaseApp/obj/Release/net9.0/webcil/publish/System.Net.Primitives.wasm",
       "SourceId": "EventEaseApp",
       "SourceType": "Computed",
-      "ContentRoot": "/Users/bolajiyakub/WorkStation/DevTwo/BlazorFramework/TrainingOne/PartTwo/Three/EventEaseApp/docs/wwwroot/",
+      "ContentRoot": "/Users/bolajiyakub/WorkStation/DevTwo/BlazorFramework/TrainingOne/PartTwo/Three/EventEaseApp/publish/wwwroot/",
       "BasePath": "/",
       "RelativePath": "_framework/System.Net.Primitives#[.{fingerprint}]!.wasm",
       "AssetKind": "Publish",
@@ -5165,7 +5165,7 @@
       "Identity": "/Users/bolajiyakub/WorkStation/DevTwo/BlazorFramework/TrainingOne/PartTwo/Three/EventEaseApp/obj/Release/net9.0/webcil/publish/System.ObjectModel.wasm",
       "SourceId": "EventEaseApp",
       "SourceType": "Computed",
-      "ContentRoot": "/Users/bolajiyakub/WorkStation/DevTwo/BlazorFramework/TrainingOne/PartTwo/Three/EventEaseApp/docs/wwwroot/",
+      "ContentRoot": "/Users/bolajiyakub/WorkStation/DevTwo/BlazorFramework/TrainingOne/PartTwo/Three/EventEaseApp/publish/wwwroot/",
       "BasePath": "/",
       "RelativePath": "_framework/System.ObjectModel#[.{fingerprint}]!.wasm",
       "AssetKind": "Publish",
@@ -5186,7 +5186,7 @@
       "Identity": "/Users/bolajiyakub/WorkStation/DevTwo/BlazorFramework/TrainingOne/PartTwo/Three/EventEaseApp/obj/Release/net9.0/webcil/publish/System.Private.CoreLib.wasm",
       "SourceId": "EventEaseApp",
       "SourceType": "Computed",
-      "ContentRoot": "/Users/bolajiyakub/WorkStation/DevTwo/BlazorFramework/TrainingOne/PartTwo/Three/EventEaseApp/docs/wwwroot/",
+      "ContentRoot": "/Users/bolajiyakub/WorkStation/DevTwo/BlazorFramework/TrainingOne/PartTwo/Three/EventEaseApp/publish/wwwroot/",
       "BasePath": "/",
       "RelativePath": "_framework/System.Private.CoreLib#[.{fingerprint}]!.wasm",
       "AssetKind": "Publish",
@@ -5207,7 +5207,7 @@
       "Identity": "/Users/bolajiyakub/WorkStation/DevTwo/BlazorFramework/TrainingOne/PartTwo/Three/EventEaseApp/obj/Release/net9.0/webcil/publish/System.Private.Uri.wasm",
       "SourceId": "EventEaseApp",
       "SourceType": "Computed",
-      "ContentRoot": "/Users/bolajiyakub/WorkStation/DevTwo/BlazorFramework/TrainingOne/PartTwo/Three/EventEaseApp/docs/wwwroot/",
+      "ContentRoot": "/Users/bolajiyakub/WorkStation/DevTwo/BlazorFramework/TrainingOne/PartTwo/Three/EventEaseApp/publish/wwwroot/",
       "BasePath": "/",
       "RelativePath": "_framework/System.Private.Uri#[.{fingerprint}]!.wasm",
       "AssetKind": "Publish",
@@ -5228,7 +5228,7 @@
       "Identity": "/Users/bolajiyakub/WorkStation/DevTwo/BlazorFramework/TrainingOne/PartTwo/Three/EventEaseApp/obj/Release/net9.0/webcil/publish/System.Runtime.InteropServices.JavaScript.wasm",
       "SourceId": "EventEaseApp",
       "SourceType": "Computed",
-      "ContentRoot": "/Users/bolajiyakub/WorkStation/DevTwo/BlazorFramework/TrainingOne/PartTwo/Three/EventEaseApp/docs/wwwroot/",
+      "ContentRoot": "/Users/bolajiyakub/WorkStation/DevTwo/BlazorFramework/TrainingOne/PartTwo/Three/EventEaseApp/publish/wwwroot/",
       "BasePath": "/",
       "RelativePath": "_framework/System.Runtime.InteropServices.JavaScript#[.{fingerprint}]!.wasm",
       "AssetKind": "Publish",
@@ -5249,7 +5249,7 @@
       "Identity": "/Users/bolajiyakub/WorkStation/DevTwo/BlazorFramework/TrainingOne/PartTwo/Three/EventEaseApp/obj/Release/net9.0/webcil/publish/System.Runtime.Serialization.Primitives.wasm",
       "SourceId": "EventEaseApp",
       "SourceType": "Computed",
-      "ContentRoot": "/Users/bolajiyakub/WorkStation/DevTwo/BlazorFramework/TrainingOne/PartTwo/Three/EventEaseApp/docs/wwwroot/",
+      "ContentRoot": "/Users/bolajiyakub/WorkStation/DevTwo/BlazorFramework/TrainingOne/PartTwo/Three/EventEaseApp/publish/wwwroot/",
       "BasePath": "/",
       "RelativePath": "_framework/System.Runtime.Serialization.Primitives#[.{fingerprint}]!.wasm",
       "AssetKind": "Publish",
@@ -5270,7 +5270,7 @@
       "Identity": "/Users/bolajiyakub/WorkStation/DevTwo/BlazorFramework/TrainingOne/PartTwo/Three/EventEaseApp/obj/Release/net9.0/webcil/publish/System.Runtime.wasm",
       "SourceId": "EventEaseApp",
       "SourceType": "Computed",
-      "ContentRoot": "/Users/bolajiyakub/WorkStation/DevTwo/BlazorFramework/TrainingOne/PartTwo/Three/EventEaseApp/docs/wwwroot/",
+      "ContentRoot": "/Users/bolajiyakub/WorkStation/DevTwo/BlazorFramework/TrainingOne/PartTwo/Three/EventEaseApp/publish/wwwroot/",
       "BasePath": "/",
       "RelativePath": "_framework/System.Runtime#[.{fingerprint}]!.wasm",
       "AssetKind": "Publish",
@@ -5291,7 +5291,7 @@
       "Identity": "/Users/bolajiyakub/WorkStation/DevTwo/BlazorFramework/TrainingOne/PartTwo/Three/EventEaseApp/obj/Release/net9.0/webcil/publish/System.Text.Encodings.Web.wasm",
       "SourceId": "EventEaseApp",
       "SourceType": "Computed",
-      "ContentRoot": "/Users/bolajiyakub/WorkStation/DevTwo/BlazorFramework/TrainingOne/PartTwo/Three/EventEaseApp/docs/wwwroot/",
+      "ContentRoot": "/Users/bolajiyakub/WorkStation/DevTwo/BlazorFramework/TrainingOne/PartTwo/Three/EventEaseApp/publish/wwwroot/",
       "BasePath": "/",
       "RelativePath": "_framework/System.Text.Encodings.Web#[.{fingerprint}]!.wasm",
       "AssetKind": "Publish",
@@ -5312,7 +5312,7 @@
       "Identity": "/Users/bolajiyakub/WorkStation/DevTwo/BlazorFramework/TrainingOne/PartTwo/Three/EventEaseApp/obj/Release/net9.0/webcil/publish/System.Text.Json.wasm",
       "SourceId": "EventEaseApp",
       "SourceType": "Computed",
-      "ContentRoot": "/Users/bolajiyakub/WorkStation/DevTwo/BlazorFramework/TrainingOne/PartTwo/Three/EventEaseApp/docs/wwwroot/",
+      "ContentRoot": "/Users/bolajiyakub/WorkStation/DevTwo/BlazorFramework/TrainingOne/PartTwo/Three/EventEaseApp/publish/wwwroot/",
       "BasePath": "/",
       "RelativePath": "_framework/System.Text.Json#[.{fingerprint}]!.wasm",
       "AssetKind": "Publish",
@@ -5333,7 +5333,7 @@
       "Identity": "/Users/bolajiyakub/WorkStation/DevTwo/BlazorFramework/TrainingOne/PartTwo/Three/EventEaseApp/obj/Release/net9.0/webcil/publish/System.Text.RegularExpressions.wasm",
       "SourceId": "EventEaseApp",
       "SourceType": "Computed",
-      "ContentRoot": "/Users/bolajiyakub/WorkStation/DevTwo/BlazorFramework/TrainingOne/PartTwo/Three/EventEaseApp/docs/wwwroot/",
+      "ContentRoot": "/Users/bolajiyakub/WorkStation/DevTwo/BlazorFramework/TrainingOne/PartTwo/Three/EventEaseApp/publish/wwwroot/",
       "BasePath": "/",
       "RelativePath": "_framework/System.Text.RegularExpressions#[.{fingerprint}]!.wasm",
       "AssetKind": "Publish",
@@ -5354,7 +5354,7 @@
       "Identity": "/Users/bolajiyakub/WorkStation/DevTwo/BlazorFramework/TrainingOne/PartTwo/Three/EventEaseApp/obj/Release/net9.0/webcil/publish/System.Threading.wasm",
       "SourceId": "EventEaseApp",
       "SourceType": "Computed",
-      "ContentRoot": "/Users/bolajiyakub/WorkStation/DevTwo/BlazorFramework/TrainingOne/PartTwo/Three/EventEaseApp/docs/wwwroot/",
+      "ContentRoot": "/Users/bolajiyakub/WorkStation/DevTwo/BlazorFramework/TrainingOne/PartTwo/Three/EventEaseApp/publish/wwwroot/",
       "BasePath": "/",
       "RelativePath": "_framework/System.Threading#[.{fingerprint}]!.wasm",
       "AssetKind": "Publish",
@@ -5375,7 +5375,7 @@
       "Identity": "/Users/bolajiyakub/WorkStation/DevTwo/BlazorFramework/TrainingOne/PartTwo/Three/EventEaseApp/obj/Release/net9.0/webcil/publish/System.wasm",
       "SourceId": "EventEaseApp",
       "SourceType": "Computed",
-      "ContentRoot": "/Users/bolajiyakub/WorkStation/DevTwo/BlazorFramework/TrainingOne/PartTwo/Three/EventEaseApp/docs/wwwroot/",
+      "ContentRoot": "/Users/bolajiyakub/WorkStation/DevTwo/BlazorFramework/TrainingOne/PartTwo/Three/EventEaseApp/publish/wwwroot/",
       "BasePath": "/",
       "RelativePath": "_framework/System#[.{fingerprint}]!.wasm",
       "AssetKind": "Publish",
@@ -6463,11 +6463,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"6hYGJpm4QClBZL21gYurZr/X9S+h/l2NVIUj7PSxecY=\""
+          "Value": "\"bctaoWwjG2Kc7Y0B2XoejGE6D8XlNNtpmheK8fJb/g8=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 31 May 2025 07:11:57 GMT"
+          "Value": "Sat, 31 May 2025 07:31:21 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6477,18 +6477,18 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-6hYGJpm4QClBZL21gYurZr/X9S+h/l2NVIUj7PSxecY="
+          "Value": "sha256-bctaoWwjG2Kc7Y0B2XoejGE6D8XlNNtpmheK8fJb/g8="
         }
       ]
     },
     {
       "Route": "_framework/blazor.boot.json",
-      "AssetFile": "/Users/bolajiyakub/WorkStation/DevTwo/BlazorFramework/TrainingOne/PartTwo/Three/EventEaseApp/obj/Release/net9.0/compressed/publish/99015p2t7r-6t1bhul42d.br",
+      "AssetFile": "/Users/bolajiyakub/WorkStation/DevTwo/BlazorFramework/TrainingOne/PartTwo/Three/EventEaseApp/obj/Release/net9.0/compressed/publish/99015p2t7r-7vrqh1p9vf.br",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "br",
-          "Quality": "0.000330360093"
+          "Quality": "0.000330906684"
         }
       ],
       "ResponseHeaders": [
@@ -6498,15 +6498,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "3026"
+          "Value": "3021"
         },
         {
           "Name": "ETag",
-          "Value": "\"b1xUWJDyfjjz66U+YngXexTscBKg4NszHFTfbkt4918=\""
+          "Value": "\"1StXEiwqF4fwLd7+YbyEd/nJDhpdRRx7zAOLd65m6+o=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 31 May 2025 07:11:57 GMT"
+          "Value": "Sat, 31 May 2025 07:31:21 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6526,24 +6526,24 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"6hYGJpm4QClBZL21gYurZr/X9S+h/l2NVIUj7PSxecY=\""
+          "Value": "W/\"bctaoWwjG2Kc7Y0B2XoejGE6D8XlNNtpmheK8fJb/g8=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-6hYGJpm4QClBZL21gYurZr/X9S+h/l2NVIUj7PSxecY="
+          "Value": "sha256-bctaoWwjG2Kc7Y0B2XoejGE6D8XlNNtpmheK8fJb/g8="
         }
       ]
     },
     {
       "Route": "_framework/blazor.boot.json",
-      "AssetFile": "/Users/bolajiyakub/WorkStation/DevTwo/BlazorFramework/TrainingOne/PartTwo/Three/EventEaseApp/obj/Release/net9.0/compressed/publish/99015p2t7r-6t1bhul42d.gz",
+      "AssetFile": "/Users/bolajiyakub/WorkStation/DevTwo/BlazorFramework/TrainingOne/PartTwo/Three/EventEaseApp/obj/Release/net9.0/compressed/publish/99015p2t7r-7vrqh1p9vf.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000302480339"
+          "Quality": "0.000302114804"
         }
       ],
       "ResponseHeaders": [
@@ -6553,15 +6553,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "3305"
+          "Value": "3309"
         },
         {
           "Name": "ETag",
-          "Value": "\"qKa5J7uPayngRFebZ0tOi+9MGE2iC7unfASNx2aQLsk=\""
+          "Value": "\"1upJSj3e3STszjbOk0TWrxmcAv/VZo1USE0DsOrca5Y=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 31 May 2025 07:11:57 GMT"
+          "Value": "Sat, 31 May 2025 07:31:21 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6581,19 +6581,19 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"6hYGJpm4QClBZL21gYurZr/X9S+h/l2NVIUj7PSxecY=\""
+          "Value": "W/\"bctaoWwjG2Kc7Y0B2XoejGE6D8XlNNtpmheK8fJb/g8=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-6hYGJpm4QClBZL21gYurZr/X9S+h/l2NVIUj7PSxecY="
+          "Value": "sha256-bctaoWwjG2Kc7Y0B2XoejGE6D8XlNNtpmheK8fJb/g8="
         }
       ]
     },
     {
       "Route": "_framework/blazor.boot.json.br",
-      "AssetFile": "/Users/bolajiyakub/WorkStation/DevTwo/BlazorFramework/TrainingOne/PartTwo/Three/EventEaseApp/obj/Release/net9.0/compressed/publish/99015p2t7r-6t1bhul42d.br",
+      "AssetFile": "/Users/bolajiyakub/WorkStation/DevTwo/BlazorFramework/TrainingOne/PartTwo/Three/EventEaseApp/obj/Release/net9.0/compressed/publish/99015p2t7r-7vrqh1p9vf.br",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6602,7 +6602,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "3026"
+          "Value": "3021"
         },
         {
           "Name": "Content-Type",
@@ -6610,11 +6610,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"b1xUWJDyfjjz66U+YngXexTscBKg4NszHFTfbkt4918=\""
+          "Value": "\"1StXEiwqF4fwLd7+YbyEd/nJDhpdRRx7zAOLd65m6+o=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 31 May 2025 07:11:57 GMT"
+          "Value": "Sat, 31 May 2025 07:31:21 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6632,13 +6632,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-b1xUWJDyfjjz66U+YngXexTscBKg4NszHFTfbkt4918="
+          "Value": "sha256-1StXEiwqF4fwLd7+YbyEd/nJDhpdRRx7zAOLd65m6+o="
         }
       ]
     },
     {
       "Route": "_framework/blazor.boot.json.gz",
-      "AssetFile": "/Users/bolajiyakub/WorkStation/DevTwo/BlazorFramework/TrainingOne/PartTwo/Three/EventEaseApp/obj/Release/net9.0/compressed/publish/99015p2t7r-6t1bhul42d.gz",
+      "AssetFile": "/Users/bolajiyakub/WorkStation/DevTwo/BlazorFramework/TrainingOne/PartTwo/Three/EventEaseApp/obj/Release/net9.0/compressed/publish/99015p2t7r-7vrqh1p9vf.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6647,7 +6647,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "3305"
+          "Value": "3309"
         },
         {
           "Name": "Content-Type",
@@ -6655,11 +6655,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"qKa5J7uPayngRFebZ0tOi+9MGE2iC7unfASNx2aQLsk=\""
+          "Value": "\"1upJSj3e3STszjbOk0TWrxmcAv/VZo1USE0DsOrca5Y=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 31 May 2025 07:11:57 GMT"
+          "Value": "Sat, 31 May 2025 07:31:21 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6677,7 +6677,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-qKa5J7uPayngRFebZ0tOi+9MGE2iC7unfASNx2aQLsk="
+          "Value": "sha256-1upJSj3e3STszjbOk0TWrxmcAv/VZo1USE0DsOrca5Y="
         }
       ]
     },
@@ -6798,7 +6798,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 31 May 2025 07:11:25 GMT"
+          "Value": "Thu, 13 Feb 2025 03:03:28 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6896,7 +6896,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 31 May 2025 07:11:25 GMT"
+          "Value": "Thu, 13 Feb 2025 03:03:28 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6988,7 +6988,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 31 May 2025 07:11:25 GMT"
+          "Value": "Thu, 13 Mar 2025 22:25:06 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -7165,7 +7165,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 31 May 2025 07:11:25 GMT"
+          "Value": "Thu, 13 Mar 2025 22:25:06 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -7257,7 +7257,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 31 May 2025 07:11:25 GMT"
+          "Value": "Thu, 13 Mar 2025 22:25:06 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -7410,7 +7410,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 31 May 2025 07:11:25 GMT"
+          "Value": "Thu, 13 Mar 2025 22:25:06 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -8806,13 +8806,13 @@
       ]
     },
     {
-      "Route": "_framework/EventEaseApp.qxt4htykex.wasm",
-      "AssetFile": "/Users/bolajiyakub/WorkStation/DevTwo/BlazorFramework/TrainingOne/PartTwo/Three/EventEaseApp/obj/Release/net9.0/compressed/publish/rb5ccmieio-qxt4htykex.br",
+      "Route": "_framework/EventEaseApp.d3lpkr7ip7.wasm",
+      "AssetFile": "/Users/bolajiyakub/WorkStation/DevTwo/BlazorFramework/TrainingOne/PartTwo/Three/EventEaseApp/obj/Release/net9.0/compressed/publish/rb5ccmieio-d3lpkr7ip7.br",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "br",
-          "Quality": "0.000063091483"
+          "Quality": "0.000063443725"
         }
       ],
       "ResponseHeaders": [
@@ -8822,15 +8822,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "15849"
+          "Value": "15761"
         },
         {
           "Name": "ETag",
-          "Value": "\"0H2NSSHuEhqW+ZrRdpQXozTTFTklo319eKQ94ZLOCH4=\""
+          "Value": "\"EY0eWakeKMXTGICet+M6xhU29Ox9xc38mraBWMtW/DU=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 31 May 2025 07:11:56 GMT"
+          "Value": "Sat, 31 May 2025 07:31:20 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -8850,13 +8850,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"cip1AnfLe0a4K3ygn1hrPzzrkBIVeaiE8CmljTV3wQk=\""
+          "Value": "W/\"CQdBtLHz2HZXJY6ktRYq6qAilB8SAd/7pQ5d5bC4+as=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "qxt4htykex"
+          "Value": "d3lpkr7ip7"
         },
         {
           "Name": "label",
@@ -8864,18 +8864,18 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-cip1AnfLe0a4K3ygn1hrPzzrkBIVeaiE8CmljTV3wQk="
+          "Value": "sha256-CQdBtLHz2HZXJY6ktRYq6qAilB8SAd/7pQ5d5bC4+as="
         }
       ]
     },
     {
-      "Route": "_framework/EventEaseApp.qxt4htykex.wasm",
-      "AssetFile": "/Users/bolajiyakub/WorkStation/DevTwo/BlazorFramework/TrainingOne/PartTwo/Three/EventEaseApp/obj/Release/net9.0/compressed/publish/rb5ccmieio-qxt4htykex.gz",
+      "Route": "_framework/EventEaseApp.d3lpkr7ip7.wasm",
+      "AssetFile": "/Users/bolajiyakub/WorkStation/DevTwo/BlazorFramework/TrainingOne/PartTwo/Three/EventEaseApp/obj/Release/net9.0/compressed/publish/rb5ccmieio-d3lpkr7ip7.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000053705693"
+          "Quality": "0.000053720118"
         }
       ],
       "ResponseHeaders": [
@@ -8885,15 +8885,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "18619"
+          "Value": "18614"
         },
         {
           "Name": "ETag",
-          "Value": "\"dk/2IU69Di72nrCVQ0Z9m0UYJ27Ntx5c5buEDInkzMM=\""
+          "Value": "\"qeSeyCHnmwlQJ6S87xV4c4ws0OAjopvNEYSOX4AnLfo=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 31 May 2025 07:11:56 GMT"
+          "Value": "Sat, 31 May 2025 07:31:20 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -8913,13 +8913,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"cip1AnfLe0a4K3ygn1hrPzzrkBIVeaiE8CmljTV3wQk=\""
+          "Value": "W/\"CQdBtLHz2HZXJY6ktRYq6qAilB8SAd/7pQ5d5bC4+as=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "qxt4htykex"
+          "Value": "d3lpkr7ip7"
         },
         {
           "Name": "label",
@@ -8927,12 +8927,12 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-cip1AnfLe0a4K3ygn1hrPzzrkBIVeaiE8CmljTV3wQk="
+          "Value": "sha256-CQdBtLHz2HZXJY6ktRYq6qAilB8SAd/7pQ5d5bC4+as="
         }
       ]
     },
     {
-      "Route": "_framework/EventEaseApp.qxt4htykex.wasm",
+      "Route": "_framework/EventEaseApp.d3lpkr7ip7.wasm",
       "AssetFile": "/Users/bolajiyakub/WorkStation/DevTwo/BlazorFramework/TrainingOne/PartTwo/Three/EventEaseApp/obj/Release/net9.0/webcil/publish/EventEaseApp.wasm",
       "Selectors": [],
       "ResponseHeaders": [
@@ -8950,11 +8950,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"cip1AnfLe0a4K3ygn1hrPzzrkBIVeaiE8CmljTV3wQk=\""
+          "Value": "\"CQdBtLHz2HZXJY6ktRYq6qAilB8SAd/7pQ5d5bC4+as=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 31 May 2025 07:11:56 GMT"
+          "Value": "Sat, 31 May 2025 07:31:20 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -8964,7 +8964,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "qxt4htykex"
+          "Value": "d3lpkr7ip7"
         },
         {
           "Name": "label",
@@ -8972,13 +8972,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-cip1AnfLe0a4K3ygn1hrPzzrkBIVeaiE8CmljTV3wQk="
+          "Value": "sha256-CQdBtLHz2HZXJY6ktRYq6qAilB8SAd/7pQ5d5bC4+as="
         }
       ]
     },
     {
-      "Route": "_framework/EventEaseApp.qxt4htykex.wasm.br",
-      "AssetFile": "/Users/bolajiyakub/WorkStation/DevTwo/BlazorFramework/TrainingOne/PartTwo/Three/EventEaseApp/obj/Release/net9.0/compressed/publish/rb5ccmieio-qxt4htykex.br",
+      "Route": "_framework/EventEaseApp.d3lpkr7ip7.wasm.br",
+      "AssetFile": "/Users/bolajiyakub/WorkStation/DevTwo/BlazorFramework/TrainingOne/PartTwo/Three/EventEaseApp/obj/Release/net9.0/compressed/publish/rb5ccmieio-d3lpkr7ip7.br",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8987,7 +8987,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "15849"
+          "Value": "15761"
         },
         {
           "Name": "Content-Type",
@@ -8995,11 +8995,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"0H2NSSHuEhqW+ZrRdpQXozTTFTklo319eKQ94ZLOCH4=\""
+          "Value": "\"EY0eWakeKMXTGICet+M6xhU29Ox9xc38mraBWMtW/DU=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 31 May 2025 07:11:56 GMT"
+          "Value": "Sat, 31 May 2025 07:31:20 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -9017,7 +9017,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "qxt4htykex"
+          "Value": "d3lpkr7ip7"
         },
         {
           "Name": "label",
@@ -9025,13 +9025,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-0H2NSSHuEhqW+ZrRdpQXozTTFTklo319eKQ94ZLOCH4="
+          "Value": "sha256-EY0eWakeKMXTGICet+M6xhU29Ox9xc38mraBWMtW/DU="
         }
       ]
     },
     {
-      "Route": "_framework/EventEaseApp.qxt4htykex.wasm.gz",
-      "AssetFile": "/Users/bolajiyakub/WorkStation/DevTwo/BlazorFramework/TrainingOne/PartTwo/Three/EventEaseApp/obj/Release/net9.0/compressed/publish/rb5ccmieio-qxt4htykex.gz",
+      "Route": "_framework/EventEaseApp.d3lpkr7ip7.wasm.gz",
+      "AssetFile": "/Users/bolajiyakub/WorkStation/DevTwo/BlazorFramework/TrainingOne/PartTwo/Three/EventEaseApp/obj/Release/net9.0/compressed/publish/rb5ccmieio-d3lpkr7ip7.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -9040,7 +9040,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "18619"
+          "Value": "18614"
         },
         {
           "Name": "Content-Type",
@@ -9048,11 +9048,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"dk/2IU69Di72nrCVQ0Z9m0UYJ27Ntx5c5buEDInkzMM=\""
+          "Value": "\"qeSeyCHnmwlQJ6S87xV4c4ws0OAjopvNEYSOX4AnLfo=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 31 May 2025 07:11:56 GMT"
+          "Value": "Sat, 31 May 2025 07:31:20 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -9070,7 +9070,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "qxt4htykex"
+          "Value": "d3lpkr7ip7"
         },
         {
           "Name": "label",
@@ -9078,18 +9078,18 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-dk/2IU69Di72nrCVQ0Z9m0UYJ27Ntx5c5buEDInkzMM="
+          "Value": "sha256-qeSeyCHnmwlQJ6S87xV4c4ws0OAjopvNEYSOX4AnLfo="
         }
       ]
     },
     {
       "Route": "_framework/EventEaseApp.wasm",
-      "AssetFile": "/Users/bolajiyakub/WorkStation/DevTwo/BlazorFramework/TrainingOne/PartTwo/Three/EventEaseApp/obj/Release/net9.0/compressed/publish/rb5ccmieio-qxt4htykex.br",
+      "AssetFile": "/Users/bolajiyakub/WorkStation/DevTwo/BlazorFramework/TrainingOne/PartTwo/Three/EventEaseApp/obj/Release/net9.0/compressed/publish/rb5ccmieio-d3lpkr7ip7.br",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "br",
-          "Quality": "0.000063091483"
+          "Quality": "0.000063443725"
         }
       ],
       "ResponseHeaders": [
@@ -9099,15 +9099,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "15849"
+          "Value": "15761"
         },
         {
           "Name": "ETag",
-          "Value": "\"0H2NSSHuEhqW+ZrRdpQXozTTFTklo319eKQ94ZLOCH4=\""
+          "Value": "\"EY0eWakeKMXTGICet+M6xhU29Ox9xc38mraBWMtW/DU=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 31 May 2025 07:11:56 GMT"
+          "Value": "Sat, 31 May 2025 07:31:20 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -9127,24 +9127,24 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"cip1AnfLe0a4K3ygn1hrPzzrkBIVeaiE8CmljTV3wQk=\""
+          "Value": "W/\"CQdBtLHz2HZXJY6ktRYq6qAilB8SAd/7pQ5d5bC4+as=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-cip1AnfLe0a4K3ygn1hrPzzrkBIVeaiE8CmljTV3wQk="
+          "Value": "sha256-CQdBtLHz2HZXJY6ktRYq6qAilB8SAd/7pQ5d5bC4+as="
         }
       ]
     },
     {
       "Route": "_framework/EventEaseApp.wasm",
-      "AssetFile": "/Users/bolajiyakub/WorkStation/DevTwo/BlazorFramework/TrainingOne/PartTwo/Three/EventEaseApp/obj/Release/net9.0/compressed/publish/rb5ccmieio-qxt4htykex.gz",
+      "AssetFile": "/Users/bolajiyakub/WorkStation/DevTwo/BlazorFramework/TrainingOne/PartTwo/Three/EventEaseApp/obj/Release/net9.0/compressed/publish/rb5ccmieio-d3lpkr7ip7.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000053705693"
+          "Quality": "0.000053720118"
         }
       ],
       "ResponseHeaders": [
@@ -9154,15 +9154,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "18619"
+          "Value": "18614"
         },
         {
           "Name": "ETag",
-          "Value": "\"dk/2IU69Di72nrCVQ0Z9m0UYJ27Ntx5c5buEDInkzMM=\""
+          "Value": "\"qeSeyCHnmwlQJ6S87xV4c4ws0OAjopvNEYSOX4AnLfo=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 31 May 2025 07:11:56 GMT"
+          "Value": "Sat, 31 May 2025 07:31:20 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -9182,13 +9182,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"cip1AnfLe0a4K3ygn1hrPzzrkBIVeaiE8CmljTV3wQk=\""
+          "Value": "W/\"CQdBtLHz2HZXJY6ktRYq6qAilB8SAd/7pQ5d5bC4+as=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-cip1AnfLe0a4K3ygn1hrPzzrkBIVeaiE8CmljTV3wQk="
+          "Value": "sha256-CQdBtLHz2HZXJY6ktRYq6qAilB8SAd/7pQ5d5bC4+as="
         }
       ]
     },
@@ -9211,11 +9211,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"cip1AnfLe0a4K3ygn1hrPzzrkBIVeaiE8CmljTV3wQk=\""
+          "Value": "\"CQdBtLHz2HZXJY6ktRYq6qAilB8SAd/7pQ5d5bC4+as=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 31 May 2025 07:11:56 GMT"
+          "Value": "Sat, 31 May 2025 07:31:20 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -9225,13 +9225,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-cip1AnfLe0a4K3ygn1hrPzzrkBIVeaiE8CmljTV3wQk="
+          "Value": "sha256-CQdBtLHz2HZXJY6ktRYq6qAilB8SAd/7pQ5d5bC4+as="
         }
       ]
     },
     {
       "Route": "_framework/EventEaseApp.wasm.br",
-      "AssetFile": "/Users/bolajiyakub/WorkStation/DevTwo/BlazorFramework/TrainingOne/PartTwo/Three/EventEaseApp/obj/Release/net9.0/compressed/publish/rb5ccmieio-qxt4htykex.br",
+      "AssetFile": "/Users/bolajiyakub/WorkStation/DevTwo/BlazorFramework/TrainingOne/PartTwo/Three/EventEaseApp/obj/Release/net9.0/compressed/publish/rb5ccmieio-d3lpkr7ip7.br",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -9240,7 +9240,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "15849"
+          "Value": "15761"
         },
         {
           "Name": "Content-Type",
@@ -9248,11 +9248,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"0H2NSSHuEhqW+ZrRdpQXozTTFTklo319eKQ94ZLOCH4=\""
+          "Value": "\"EY0eWakeKMXTGICet+M6xhU29Ox9xc38mraBWMtW/DU=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 31 May 2025 07:11:56 GMT"
+          "Value": "Sat, 31 May 2025 07:31:20 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -9270,13 +9270,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-0H2NSSHuEhqW+ZrRdpQXozTTFTklo319eKQ94ZLOCH4="
+          "Value": "sha256-EY0eWakeKMXTGICet+M6xhU29Ox9xc38mraBWMtW/DU="
         }
       ]
     },
     {
       "Route": "_framework/EventEaseApp.wasm.gz",
-      "AssetFile": "/Users/bolajiyakub/WorkStation/DevTwo/BlazorFramework/TrainingOne/PartTwo/Three/EventEaseApp/obj/Release/net9.0/compressed/publish/rb5ccmieio-qxt4htykex.gz",
+      "AssetFile": "/Users/bolajiyakub/WorkStation/DevTwo/BlazorFramework/TrainingOne/PartTwo/Three/EventEaseApp/obj/Release/net9.0/compressed/publish/rb5ccmieio-d3lpkr7ip7.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -9285,7 +9285,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "18619"
+          "Value": "18614"
         },
         {
           "Name": "Content-Type",
@@ -9293,11 +9293,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"dk/2IU69Di72nrCVQ0Z9m0UYJ27Ntx5c5buEDInkzMM=\""
+          "Value": "\"qeSeyCHnmwlQJ6S87xV4c4ws0OAjopvNEYSOX4AnLfo=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 31 May 2025 07:11:56 GMT"
+          "Value": "Sat, 31 May 2025 07:31:20 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -9315,7 +9315,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-dk/2IU69Di72nrCVQ0Z9m0UYJ27Ntx5c5buEDInkzMM="
+          "Value": "sha256-qeSeyCHnmwlQJ6S87xV4c4ws0OAjopvNEYSOX4AnLfo="
         }
       ]
     },

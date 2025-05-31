@@ -1,0 +1,4 @@
+/Users/bolajiyakub/WorkStation/DevTwo/BlazorFramework/TrainingOne/PartTwo/Three/EventEaseApp/publish/docs/web.config
+/Users/bolajiyakub/WorkStation/DevTwo/BlazorFramework/TrainingOne/PartTwo/Three/EventEaseApp/publish/docs/EventEaseApp.staticwebassets.endpoints.json
+/Users/bolajiyakub/WorkStation/DevTwo/BlazorFramework/TrainingOne/PartTwo/Three/EventEaseApp/publish/docs/wwwroot/_framework/blazor.boot.json
+/Users/bolajiyakub/WorkStation/DevTwo/BlazorFramework/TrainingOne/PartTwo/Three/EventEaseApp/publish/web.config
