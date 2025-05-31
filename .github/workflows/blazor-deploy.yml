@@ -1,0 +1,61 @@
+name: Deploy Blazor WASM to GitHub Pages
+
+on:
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+# Allow only one concurrent deployment, skipping runs queued between the run in-progress and latest queued.
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v4
+    - name: Setup .NET
+      uses: actions/setup-dotnet@v4
+      with:
+        dotnet-version: 9.0.x
+    - name: Restore dependencies
+      run: dotnet restore
+    - name: Build
+      run: dotnet build --no-restore
+    - name: Publish
+      run: dotnet publish -c Release -o release --nologo
+    
+    # Create base path config based on repository name
+    - name: Configure base path
+      run: |
+        REPOSITORY_NAME=${GITHUB_REPOSITORY#*/}
+        echo "Setting base path to /$REPOSITORY_NAME/"
+        find ./release/wwwroot -name "index.html" -exec sed -i "s|<base href=\"/\"|<base href=\"/$REPOSITORY_NAME/\"|g" {} \;
+        
+    # Create .nojekyll file to prevent GitHub Pages from ignoring files that start with an underscore
+    - name: Create .nojekyll file
+      run: touch ./release/wwwroot/.nojekyll
+      
+    - name: Upload GitHub Pages artifact
+      uses: actions/upload-pages-artifact@v3
+      with:
+        path: release/wwwroot
+
+  deploy:
+    needs: build
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

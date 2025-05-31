@@ -1,0 +1,8 @@
+{
+  "baseurl": "/EventEaseApp",
+  "permalink": "pretty",
+  "include": [
+    "_framework",
+    "_content"
+  ]
+}

@@ -9,6 +9,14 @@
       "PackagePath": "staticwebassets/EventEaseApp.styles.css"
     },
     {
+      "Id": "/Users/bolajiyakub/WorkStation/DevTwo/BlazorFramework/TrainingOne/PartTwo/Three/EventEaseApp/wwwroot/.nojekyll",
+      "PackagePath": "staticwebassets/.nojekyll"
+    },
+    {
+      "Id": "/Users/bolajiyakub/WorkStation/DevTwo/BlazorFramework/TrainingOne/PartTwo/Three/EventEaseApp/wwwroot/404.html",
+      "PackagePath": "staticwebassets/404.html"
+    },
+    {
       "Id": "/Users/bolajiyakub/WorkStation/DevTwo/BlazorFramework/TrainingOne/PartTwo/Three/EventEaseApp/wwwroot/css/app.css",
       "PackagePath": "staticwebassets/css/app.css"
     },
