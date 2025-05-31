@@ -23,6 +23,7 @@ dotnet publish -c Release -o docs --nologo
 # Step 4: Create required files for GitHub Pages
 echo "${GREEN}Creating required files for GitHub Pages...${NC}"
 touch docs/.nojekyll
+echo "bola-learner.github.io" > docs/CNAME
 
 # Step 5: Ensure correct base path in index.html
 echo "${GREEN}Updating base path in index.html...${NC}"
